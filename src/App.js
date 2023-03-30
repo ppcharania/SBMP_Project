@@ -1,9 +1,11 @@
-import React from 'react'
+import React from 'react';
+import 'react-chatbot-kit/build/main.css';
 import './App.css';
 import {Routes,Route} from 'react-router-dom'
-import Navbar from './Components/Navbar'
-import Header from './Components/Header'
-import Footer from './Components/Footer'
+import Navbar from './components/Navbar'
+import Header from './components/Header'
+import Footer from './components/Footer'
+import Chatbot from './components/chatbot'
 import Landing from './Pages/Landing';
 import AboutSVKM from './Pages/AboutUs/AboutSVKM'
 import AboutSBMP from './Pages/AboutUs/AboutSBMP'
@@ -28,11 +30,17 @@ import StudSupport from './Pages/Students/StudSupport'
 
 
 function App() {
+  
   return (
     <div className="App">
-      <div className='App-header'><Header/></div>
-      <Navbar/>   
-      
+      <div className='App-header'>
+        <Header/>
+      </div>
+      <Navbar/> 
+      <div className='chatbot'>  
+        <Chatbot/>
+      </div>
+      <div>
       <Routes>
         <Route path="/" element={<Landing/>}/>
 
@@ -79,6 +87,7 @@ function App() {
         <Route path="/miscellaneous" element={<Miscellaneous/>}/>
         
       </Routes>
+      </div>
       
       <Footer/>
     </div>

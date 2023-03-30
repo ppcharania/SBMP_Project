@@ -1,0 +1,44 @@
+.chatbot {
+    text-align: center;
+  }
+  
+  
+  
+  
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .react-chatbot-kit-chat-message-container {
+      padding: 0 17.5px 10px 17.5px;
+      overflow: scroll;
+      height: 424px;
+  }
+  
+  .react-chatbot-kit-chat-container {
+    position: relative;
+    width: 320px;
+  }
+  
+  .react-chatbot-kit-chat-header {
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    font-family: Arial;
+    display: flex;
+    align-items: center;
+    font-size: 0.85rem;
+    color: #514f4f;
+    padding: 12.5px;
+    font-weight: bold;
+  }
+  
