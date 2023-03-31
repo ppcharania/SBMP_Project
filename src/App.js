@@ -2,10 +2,10 @@ import React from 'react';
 import 'react-chatbot-kit/build/main.css';
 import './App.css';
 import {Routes,Route} from 'react-router-dom'
-import Navbar from './components/Navbar'
-import Header from './components/Header'
-import Footer from './components/Footer'
-import Chatbot from './components/chatbot'
+import Navbar from './Components/Navbar'
+import Header from './Components/Header'
+import Footer from './Components/Footer'
+import Chatbot from './Components/chatbot.js';
 import Landing from './Pages/Landing';
 import AboutSVKM from './Pages/AboutUs/AboutSVKM'
 import AboutSBMP from './Pages/AboutUs/AboutSBMP'
@@ -30,7 +30,6 @@ import StudSupport from './Pages/Students/StudSupport'
 
 
 function App() {
-  
   return (
     <div className="App">
       <div className='App-header'>
@@ -38,7 +37,6 @@ function App() {
       </div>
       <Navbar/> 
       <div className='chatbot'>  
-        <Chatbot/>
       </div>
       <div>
       <Routes>
@@ -88,7 +86,21 @@ function App() {
         
       </Routes>
       </div>
+
+      {/* Chatbot */}
+
+      <div style={{
+        position: 'fixed',
+        right: '25px',
+        bottom: '50px',
+        zIndex: '1',
+      }}
+      >
+        <Chatbot/>
+      </div>
       
+      {/* Footer */}
+
       <Footer/>
     </div>
   );

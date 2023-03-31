@@ -16,7 +16,6 @@ const ChatbotSBMP = () => {
   }
   return (
     <div className = "App">
-        <header className = "App-header">
           <Button 
           size = "large"  
           variant = "contained" 
@@ -25,11 +24,10 @@ const ChatbotSBMP = () => {
           Chat
           </Button>
           {showComponent && <Chatbot
-    config={config}
-    messageParser={MessageParser}
-    actionProvider={ActionProvider}
-    />  }
-        </header>
+          config={config}
+          messageParser={MessageParser}
+          actionProvider={ActionProvider}
+          />  }
     </div>
   );
 }
