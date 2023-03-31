@@ -20,6 +20,14 @@ import ApplyOnline from './Pages/Careers/ApplyOnline'
 import Overview from './Pages/CDTP/Overview'
 import CivilEngg from './Pages/Departments/CivilEngg'
 import MechanicalEngg from './Pages/Departments/MechanicalEngg';
+import ElectricalEngg from './Pages/Departments/ElectricalEngg';
+import ChemicalEngg from './Pages/Departments/ChemicalEngg';
+import ComputerEngg from './Pages/Departments/ComputerEngg';
+import DigitalElec from './Pages/Departments/DexEngg';
+import ElectronnicsTelecom from './Pages/Departments/ExtcEngg';
+import IndustrialElec from './Pages/Departments/IndustrialEngg';
+import InformationTech from './Pages/Departments/InfotechEngg';
+import PlasticEngg from './Pages/Departments/PlasticEngg';
 import AboutUs from './Pages/IncubationCentre/AboutUs'
 import VissionMission from './Pages/IncubationCentre/VissionMission'
 import Miscellaneous from './Pages/Miscellaneous/Miscellaneous'
@@ -27,6 +35,7 @@ import StaffNotices from './Pages/Notices/StaffNotices'
 import StudNotices from './Pages/Notices/StudNotices'
 import Examination from './Pages/Students/Examination'
 import StudSupport from './Pages/Students/StudSupport'
+
 
 
 function App() {
@@ -40,7 +49,7 @@ function App() {
       <div className='chatbot'>  
         <Chatbot/>
       </div>
-      <div>
+      <div className='Pages'>
       <Routes>
         <Route path="/" element={<Landing/>}/>
 
@@ -57,6 +66,14 @@ function App() {
         <Route path="/departments" element={<CivilEngg/>}/>
         <Route path="/civilengg" element={<CivilEngg/>}/>
         <Route path="/mechanicalengg" element={<MechanicalEngg/>}/>
+        <Route path="/electricalengg" element={<ElectricalEngg/>}/>
+        <Route path="/industrialelec" element={<IndustrialElec/>}/>
+        <Route path="/plasticengg" element={<PlasticEngg/>}/>
+        <Route path="/chemicalengg" element={<ChemicalEngg/>}/>
+        <Route path="/digitalelec" element={<DigitalElec/>}/>
+        <Route path="/computerengg" element={<ComputerEngg/>}/>
+        <Route path="/informationtech" element={<InformationTech/>}/>
+        <Route path="/electronicstelecom" element={<ElectronnicsTelecom/>}/>
 
         <Route path="/students" element={<Examination/>}/>
         <Route path="/examination" element={<Examination/>}/>

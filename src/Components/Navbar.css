@@ -10,6 +10,7 @@
     text-align: center;
     padding: 5px 3px; 
     text-decoration: none;
+    width: 100%;
   }
   
   .subnav {
@@ -17,45 +18,51 @@
     overflow: hidden;
   }
   
+  
   .subnav .subnavbtn {
     font-size: 16px;  
     border: none;
     outline: none;
     color: black;
-    padding: 14px 16px;
+    padding: 5px 5px;
     background-color: inherit;
     font-family: inherit;
-    margin: 0;
+    float: left;
+    
   }
   
   .navbar a:hover, .subnav:hover .subnavbtn {
     background-color: #eee;
+    
   }
   
  .subnav-content {
     display: none;
     position: relative;
-    left: 0;
     background-color: #f6f8f7;
     width: 100%;
     z-index: 1;
+    float: left;
   }
-  
+
+  .subnav:hover .subnav-content {
+    display: block;
+  } 
+
+
+
   .subnav-content a {
     float: left;
     color: black;
     text-decoration: none;
+    text-align: left;
   }
-  
+   
   .subnav-content a:hover {
     background-color: #eee;
     color: black;
   }
   
-  .subnav:hover .subnav-content {
-    display: block;
-  } 
+ 
 
-  /* .about{
-    margin-top: 100px;
-  } */
+ 
