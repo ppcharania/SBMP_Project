@@ -1,6 +1,6 @@
 import React from 'react'
 import SideNav from './SideNav'
-const MechanicalEngineering = () => {
+const ElectronnicsTelecommunication = () => {
   return (
     <div className='FullPage' style={{display:'flex'}}>
       <SideNav/>
@@ -8,4 +8,4 @@ const MechanicalEngineering = () => {
   )
 }
 
-export default MechanicalEngineering
+export default ElectronnicsTelecommunication
