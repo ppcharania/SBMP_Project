@@ -1,8 +1,16 @@
 import React from 'react'
-
+import SideNav from './SideNav'
 const DiplomaUnaided = () => {
   return (
-    <div>Diploma(Unaided)</div>
+    <div className='FullPage' style={{display:'flex'}}>
+      <SideNav/>
+      <div style={{float:'left', width:'30%', paddingLeft:'10px'}}> 
+        <h1>Diploma(Unaided)</h1>
+        
+      </div>
+    </div>
+
+
   )
 }
 
