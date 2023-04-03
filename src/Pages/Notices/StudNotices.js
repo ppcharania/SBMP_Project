@@ -1,9 +1,17 @@
 import React from 'react'
-
-const StudentNotices = () => {
+import SideNav from './SideNav'
+const StudNotices = () => {
   return (
-    <div>Student Notices</div>
+    <div className='FullPage' style={{display:'flex'}}>
+      <SideNav/>
+      <div style={{float:'left', width:'30%', paddingLeft:'10px'}}> 
+        <h1>Student Notices</h1>
+        
+      </div>
+    </div>
+
+
   )
 }
 
-export default StudentNotices
+export default StudNotices

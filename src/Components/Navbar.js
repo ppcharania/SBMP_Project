@@ -10,6 +10,10 @@ const Navbar = () => {
           <div class="subnav-content about">
             <Link to="/aboutsvkm">About SVKM</Link>
             <Link to="/aboutsbmp">About SBMP</Link>
+            <Link to="/mandisclosure">Mandatory Disclosure 2022-23</Link>
+            <Link to="/infrastructure">Infrastructure</Link>
+            <Link to="/administration">Administration</Link>
+            <Link to="/eoa">Extension of Approval (EoA)</Link>
           </div>
         </div>
 
@@ -23,6 +27,9 @@ const Navbar = () => {
           <div class="subnav-content">
             <Link to="/diplomaaided">Diploma (Aided)</Link>
             <Link to="/diplomaunaided">Diploma (Unaided)</Link>
+            <Link to="/implanttraining">Implant Training</Link>
+            <Link to="/feestructure">Fee Structure</Link>
+            <Link to="/timetable">Time Table</Link>
           </div>
         </div>
 
@@ -45,6 +52,10 @@ const Navbar = () => {
           <div class="subnav-content">
             <Link to="/examination">Examination</Link>
             <Link to="/studsupport">Student Support</Link>
+            <Link to="/association">Associations</Link>
+            <Link to="/committee">Committee</Link>
+            <Link to="/placementcell">Placement Cell</Link>
+            <Link to="/feedback">AICTE 360 Feedback Link</Link>
           </div>
         </div>
   
@@ -52,6 +63,7 @@ const Navbar = () => {
           <div class="subnav-content">
             <Link to="/staffnotices">Staff Notices</Link>
             <Link to="/studnotices">Student Notices</Link>
+            <Link to="/cumulativeatt">Cumulative Attendance</Link>
           </div>
         </div>
 
@@ -84,7 +96,13 @@ const Navbar = () => {
         <div className='subnav'><div class="subnavbtn"><Link to='/incubationcentre'>Incubation Centre<i class="fa fa-caret-down"></i></Link></div>
           <div class="subnav-content">
             <Link to="/abtus">About Us</Link>
-            <Link to="/vissionmission">Vission and Mission</Link>
+            <Link to="/vissionmission">Vission and Mission</Link>  
+            <Link to="/managingteam">Core Managaing Team</Link>    
+            <Link to="/mentors">Mentors</Link>    
+            <Link to="/nisp">National Innovation Startup Policy</Link>
+            <Link to="/msisp">Maharashtra State Innovation Startup Policy</Link>
+            <Link to="/contactus">Contact Us</Link>
+            <Link to="/howtoapply">How to Apply</Link>
           </div>
         </div>
 
