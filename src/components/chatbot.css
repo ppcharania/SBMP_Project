@@ -45,3 +45,15 @@
   padding: 12.5px;
   font-weight: bold;
 }
+
+.react-chatbot-kit-chat-bot-message {
+  background-color: #2898ec;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  color: #fff;
+  position: relative;
+  width: 220.5px;
+  margin-left: auto;
+  text-align: left;
+}
