@@ -55,25 +55,21 @@ class ActionProvider {
   }
   
   CSEHand = () => {
-    const message = this.createChatBotMessage("The Course is a Three Years Full Time, Un-aided, Non-Sandwich Semester - Pattern having MultipointEntry & Credit System. ")
-    const message2 = this.createChatBotMessage("The emphasis of the course is on Computer Education at a Technical Level covering Knowledge of Software, Hardware and Instruments at higher semesters along with basic Science Subjects in first and second semester.")
-    const message3 = this.createChatBotMessage("For more Information click on the link given below",{
+    const message = this.createChatBotMessage("Is is a Three Years Full Time, Un-aided, Non-Sandwich Semester Pattern Course having MultipointEntry & Credit System. ")
+    const message2 = this.createChatBotMessage("The emphasis of the course is on Computer Education at a Technical Level covering Knowledge of Software, Hardware and Instruments along with basic Science Subjects. For more Information click on the link given below",{
       widget: "CSEredirect"
-    })
+    } )
     this.setChatbotMessage(message)
     this.setChatbotMessage(message2)
-    this.setChatbotMessage(message3)
   }
 
   ITHand = () => {
-    const message = this.createChatBotMessage("The Course is a Three Years Full Time, Un-aided, Non-Sandwich Semester - Pattern having MultipointEntry & Credit System. The content of syllabus is having weightage of around appex 70% to 30% as software to hardware respectively.")
-    const message2 = this.createChatBotMessage("The emphasis of the course is on Information Technology with computer education at a Technician level covering knowledge of Software, Hardware alongwith basic subjects like Mathematics, Physics etc in first and second semester.")
-    const message3 = this.createChatBotMessage("For more Information click on the link given below",{
+    const message = this.createChatBotMessage("It is a Three Years Full Time, Un-aided, Non-Sandwich Semester Pattern Course having Credit System. The content of syllabus has weightage of around appex 70% to 30% as software to hardware respectively.")
+    const message2 = this.createChatBotMessage("The emphasis of the course is on knowledge at a Technician level covering of Software, Hardware along with basic subjects. For more Information click on the link below",{
       widget: "ITredirect"
     })
     this.setChatbotMessage(message)
     this.setChatbotMessage(message2)
-    this.setChatbotMessage(message3)
   }
 
   CivilHand = () => {
