@@ -16,18 +16,21 @@ const ChatbotSBMP = () => {
   }
   return (
     <div className = "App">
-          <Button 
-          size = "large"  
-          variant = "contained" 
-          onClick={handleClick} 
-          startIcon={<ChatIcon />}>
-          Chat
-          </Button>
+         
           {showComponent && <Chatbot
           config={config}
           messageParser={MessageParser}
           actionProvider={ActionProvider}
           />  }
+           <Button 
+          size = "large"  
+          variant = "contained" 
+          sx={showComponent ? {marginLeft:'210px'}:{}}
+          onClick={handleClick} 
+          startIcon={<ChatIcon />}>
+          Chat
+          </Button>
+
     </div>
   );
 }

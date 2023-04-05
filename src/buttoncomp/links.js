@@ -3,13 +3,13 @@ import {Link} from 'react-router-dom';
 
 export function Civil() {
     return(
-        <Link to='/CivilEngg' style={{textDecoration:'none'}}>Civil Engineering</Link>
+        <Link to="/civilengg" style={{textDecoration:'none'}}>Civil Engineering</Link>
     )
 } 
 
 export function Mechanical() {
   return(
-      <Link to='/MechanicalEngg' style={{textDecoration:'none'}}>Mechanical Engineering</Link>
+      <Link to='/mechanicalengg' style={{textDecoration:'none'}}>Mechanical Engineering</Link>
   )
 } 
 
@@ -21,31 +21,31 @@ export function Electrical() {
 
 export function Industrial() {
   return(
-      <Link to='/IndustrialEngg' style={{textDecoration:'none'}}>Industrial Engineering</Link>
+      <Link to='/industrialelec' style={{textDecoration:'none'}}>Industrial Engineering</Link>
   )
 } 
 
 export function Plastic() {
   return(
-      <Link to='/PlasticEngg' style={{textDecoration:'none'}}>Plastic Engineering</Link>
+      <Link to='/plasticengg' style={{textDecoration:'none'}}>Plastic Engineering</Link>
   )
 } 
 
 export function Chemical() {
   return(
-      <Link to='/ChemicalEngg' style={{textDecoration:'none'}}>Chemical Engineering</Link>
+      <Link to='/chemicalengg' style={{textDecoration:'none'}}>Chemical Engineering</Link>
   )
 }
 
 export function Digital() {
   return(
-      <Link to='/DigitalEngg' style={{textDecoration:'none'}}>Digital Engineering</Link>
+      <Link to='/digitalelec' style={{textDecoration:'none'}}>Digital Engineering</Link>
   )
 } 
 
 export function Computer() {
   return(
-      <Link to='/ComputerEngg' style={{textDecoration:'none'}}>Computer Engineering</Link>
+      <Link to='/computerengg' style={{textDecoration:'none'}}>Computer Engineering</Link>
   )
 } 
 
@@ -57,7 +57,7 @@ export function IT() {
 
 export function Extc() {
   return(
-      <Link to='/ExtcEngg' style={{textDecoration:'none'}}>Electrionics and Telecommunications Engineering</Link>
+      <Link to='/electronicstelecom' style={{textDecoration:'none'}}>Electrionics and Telecommunications Engineering</Link>
   )
 } 
 
