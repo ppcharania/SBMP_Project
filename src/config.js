@@ -17,6 +17,7 @@ import { Chemical } from './buttoncomp/links';
 import { Digital } from './buttoncomp/links';
 import { Extc } from './buttoncomp/links';
 import { Aboutsbmp } from './buttoncomp/links';
+import { Admission } from './buttoncomp/links';
 
 const config = {
   initialMessages: [
@@ -59,7 +60,7 @@ const config = {
       widgetName: "ITredirect",
       widgetFunc: (props) => <IT {...props}/>
     },
-    {
+    { 
       widgetName: "Civilredirect",
       widgetFunc: (props) => <Civil {...props}/>
     },
@@ -94,6 +95,10 @@ const config = {
     {
       widgetName: "Aboutsbmp",
       widgetFunc: (props) => <Aboutsbmp {...props}/>
+    },
+    {
+      widgetName: "Admissions",
+      widgetFunc: (props) => <Admission {...props}/>
     },
   ],
 };

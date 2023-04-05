@@ -53,6 +53,11 @@ class ActionProvider {
     const message = this.createChatBotMessage("Shri Bhagubhai Mafatlal Polytechnic Irla, N. R. G Marg, Opposite Cooper Hospital, Vileparle (W), Mumbai 400056 India Website: www.sbmp.ac.in Phone: 022-42336000 (Office) 022-42336022 (Direct) Fax: 022-26110117")
     this.setChatbotMessage(message)
   }
+
+  Address = () => {
+    const message = this.createChatBotMessage("Shri Bhagubhai Mafatlal Polytechnic Irla, N. R. G Marg, Opposite Cooper Hospital, Vileparle (W), Mumbai 400056 India")
+    this.setChatbotMessage(message)
+  }
   
   CSEHand = () => {
     const message = this.createChatBotMessage("Is is a Three Years Full Time, Un-aided, Non-Sandwich Semester Pattern Course having MultipointEntry & Credit System. ")
@@ -152,6 +157,14 @@ class ActionProvider {
     this.setChatbotMessage(message2)
   }
 
+  Admission = () => {
+    const message = this.createChatBotMessage("The notifications for the both admissions (FY,DSY) will be published in news paper and on official websites after the SSC and HSC result declaration respectively .Eligibility Criteria and Reservations/QuotaAs per MS DTE rules.")
+    const message2 = this.createChatBotMessage("The admision will take place on MS DTE through state level admission procedure (CAP). For information about intakes, courses available and Links for admission click on link below",{
+      widget: "Admissions"
+    })
+    this.setChatbotMessage(message)
+    this.setChatbotMessage(message2)
+  }
 
   elseHandler = () => {
     const message = this.createChatBotMessage("Sorry Did not get you")
