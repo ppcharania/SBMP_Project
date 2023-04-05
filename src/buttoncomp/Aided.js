@@ -5,14 +5,14 @@ const Aided = (props) => {
     return (
       <>
       <Stack direction="column" alignItems="flex-start" spacing={2}>
-      <Button size = "small" variant="outlined">Civil Engineering</Button>
-      <Button size = "small" variant="outlined">Mechanical Engineering</Button>
-      <Button size = "small" variant="outlined">Electrical Engineering</Button>
-      <Button size = "small" variant="outlined">Industrial Engineering</Button>
-      <Button size = "small" variant="outlined">Plastics Engineering</Button>
-      <Button size = "small" variant="outlined">Chemical Engineering</Button>
-      <Button size = "small" variant="outlined">Digital Engineering</Button>
-      <Button size = "small" variant="outlined">EXTC Engineering</Button>
+      <Button size = "small" variant="outlined" onClick={props.actionProvider.CivilHand}>Civil Engineering</Button>
+      <Button size = "small" variant="outlined" onClick={props.actionProvider.MechHand}>Mechanical Engineering</Button>
+      <Button size = "small" variant="outlined" onClick={props.actionProvider.ElectHand}>Electrical Engineering</Button>
+      <Button size = "small" variant="outlined" onClick={props.actionProvider.IndustHand}>Industrial Engineering</Button>
+      <Button size = "small" variant="outlined" onClick={props.actionProvider.PlasticHand}>Plastics Engineering</Button>
+      <Button size = "small" variant="outlined" onClick={props.actionProvider.ChemHand}>Chemical Engineering</Button>
+      <Button size = "small" variant="outlined" onClick={props.actionProvider.DigtHand}>Digital Engineering</Button>
+      <Button size = "small" variant="outlined" onClick={props.actionProvider.EXTCHand}>EXTC Engineering</Button>
       </Stack>
       </>
     )
