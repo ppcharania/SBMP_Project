@@ -21,6 +21,12 @@ import ImplantTraining from './Pages/Academics/ImplantTraining'
 import Admissions from './Pages/Admissions/AdmissionDetails'
 import Aamc from './Pages/Alumini/Aamc'
 import ActivityCalendar from './Pages/Alumini/ActivityCalendar';
+import Booklet from './Pages/Alumini/Booklet';
+import MultiTech from './Pages/Alumini/MultiTech';
+import NewsLet from './Pages/Alumini/NewsLet';
+import Registered from './Pages/Alumini/Registered';
+import SubCom from './Pages/Alumini/SubCom';
+import Success from './Pages/Alumini/Success';
 import Associations from './Pages/AssociationsAndEvents/Associations'
 import Events from './Pages/AssociationsAndEvents/Events'
 import ApplyOnline from './Pages/Careers/ApplyOnline'
@@ -43,7 +49,6 @@ import HowToApply from './Pages/IncubationCentre/HowToApply';
 import Nisp from './Pages/IncubationCentre/Nisp';
 import Mentors from './Pages/IncubationCentre/Mentors';
 import ManagingTeam from './Pages/IncubationCentre/ManagingTeam';
-import Miscellaneous from './Pages/Miscellaneous/Miscellaneous'
 import StaffNotices from './Pages/Notices/StaffNotices'
 import StudNotices from './Pages/Notices/StudNotices'
 import Examination from './Pages/Students/Examination'
@@ -123,7 +128,14 @@ function App() {
         <Route path="/alumini" element={<Aamc/>}/>
         <Route path="/aamc" element={<Aamc/>}/>
         <Route path="/activitycalendar" element={<ActivityCalendar/>}/>
-        
+        <Route path="/booklet" element={<Booklet/>}/>
+        <Route path="/multitech" element={<MultiTech/>}/>
+        <Route path="/newslet" element={<NewsLet/>}/>
+        <Route path="/registered" element={<Registered/>}/>
+        <Route path="/subcom" element={<SubCom/>}/>
+        <Route path="/success" element={<Success/>}/>
+
+
         <Route path="/incubationcentre" element={<AboutUs/>}/>
         <Route path="/abtus" element={<AboutUs/>}/>
         <Route path="/vissionmission" element={<VissionMission/>}/>
@@ -134,7 +146,7 @@ function App() {
         <Route path="/contactus" element={<ContactUs/>}/>
         <Route path="/howtoapply" element={<HowToApply/>}/>
 
-        <Route path="/miscellaneous" element={<Miscellaneous/>}/>
+        
         
       </Routes>
       </div>

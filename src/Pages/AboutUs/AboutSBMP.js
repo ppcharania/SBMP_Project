@@ -1,5 +1,6 @@
 import React from 'react'
 import SideNav from './SideNav'
+
 const AboutSBMP = () => {
   return (
     <div className='FullPage' style={{display:'flex'}}>
