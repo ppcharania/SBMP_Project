@@ -193,6 +193,38 @@ const Navbar = () => {
                                     </div>
                                 </li>
                                 <li className="nav-link" >
+                                    <Link to='/alumini' style={{textDecoration:"none"}}>Alumini<i className="fas fa-caret-down"></i></Link>
+                                    <div className="dropdown">
+                                        <ul style={{listStyleType:"none"}}>
+                                            <li className="dropdown-link" >
+                                                <Link to="/aamc" style={{textDecoration:"none"}}>Alumini Association Manging Committee</Link>
+                                            </li>
+                                            <li className="dropdown-link">
+                                                <Link to="/activitycalendar" style={{textDecoration:"none"}}>Activity Calendar</Link>
+                                            </li>
+                                            <li className="dropdown-link">
+                                                <Link to="/success" style={{textDecoration:"none"}}>Alumini Success Story</Link>
+                                            </li>
+                                            <li className="dropdown-link">
+                                                <Link to="/registered" style={{textDecoration:"none"}}>Registered Alumini</Link>
+                                            </li>
+                                            <li className="dropdown-link">
+                                                <Link to="/subcom" style={{textDecoration:"none"}}>Alumini Sub Committee</Link>
+                                            </li>
+                                            <li className="dropdown-link">
+                                                <Link to="/newslet" style={{textDecoration:"none"}}>Alumini News Letter</Link>
+                                            </li>
+                                            <li className="dropdown-link">
+                                                <Link to="/booklet" style={{textDecoration:"none"}}>Alumini Booklet</Link>
+                                            </li>
+                                            <li className="dropdown-link">
+                                                <Link to="/multitech" style={{textDecoration:"none"}}>MultiTech Event 2020</Link>
+                                            </li>
+                                            <div className="arrow"></div>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li className="nav-link" >
                                     <Link to='/incubationcentre' style={{textDecoration:"none"}}>Incubation Centre<i className="fas fa-caret-down"></i></Link>
                                     <div className="dropdown LastDrop">
                                         <ul style={{listStyleType:"none"}}>

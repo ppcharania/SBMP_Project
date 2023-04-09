@@ -14,45 +14,38 @@ const SideNav = () => {
     <div style={{float:'left', width:'30%', padding:'1px'}} className='SideMenu'>
     <List sx={style} component="nav" aria-label="mailbox folders">
     <ListItem button>
-        <Link to='/civilengg' style={{textDecoration:'none'}}><ListItemText style={{color:'black'}} primary="Civil Enginnering"/></Link>
+        <Link to='/aamc' style={{textDecoration:'none'}}><ListItemText style={{color:'black'}} primary="Alumini Association Manging Committee"/></Link>
     </ListItem>
     <Divider />
     <ListItem button>
-        <Link to='/mechanicalengg' style={{textDecoration:'none'}}><ListItemText style={{color:'black'}} primary="Mechanical Enginnering"/></Link>
+        <Link to='/activitycalendar' style={{textDecoration:'none'}}><ListItemText style={{color:'black'}} primary="Activity Calendar"/></Link>
     </ListItem>
     <Divider />
     <ListItem button>
-        <Link to='/electricalengg' style={{textDecoration:'none'}}><ListItemText style={{color:'black'}} primary="Electrical Engineering"/></Link>
+        <Link to='/success' style={{textDecoration:'none'}}><ListItemText style={{color:'black'}} primary="Alumini Success Story"/></Link>
     </ListItem>
     <Divider />
     <ListItem button>
-        <Link to='/industrialelec' style={{textDecoration:'none'}}><ListItemText style={{color:'black'}} primary="Industrial Electronics"/></Link>
+        <Link to='/registered' style={{textDecoration:'none'}}><ListItemText style={{color:'black'}} primary="Registered Alumini"/></Link>
     </ListItem>
     <Divider />
     <ListItem button>
-        <Link to='/plasticengg' style={{textDecoration:'none'}}><ListItemText style={{color:'black'}} primary="Plastic Enginnering"/></Link>
+        <Link to='/subcom' style={{textDecoration:'none'}}><ListItemText style={{color:'black'}} primary="Alumini Sub Committee"/></Link>
     </ListItem>
     <Divider />
     <ListItem button>
-        <Link to='/chemicalengg' style={{textDecoration:'none'}}><ListItemText style={{color:'black'}} primary="Chemical Enginnering"/></Link>
+        <Link to='/newslet' style={{textDecoration:'none'}}><ListItemText style={{color:'black'}} primary="Alumini News Letter"/></Link>
     </ListItem>
     <Divider />
     <ListItem button>
-        <Link to='/digitalelec' style={{textDecoration:'none'}}><ListItemText style={{color:'black'}} primary="Digital Electronics"/></Link>
+        <Link to='/booklet' style={{textDecoration:'none'}}><ListItemText style={{color:'black'}} primary="Alumini Booklet"/></Link>
     </ListItem>
     <Divider />
     <ListItem button>
-        <Link to='/computerengg' style={{textDecoration:'none'}}><ListItemText style={{color:'black'}} primary="Computer Enginnering"/></Link>
+        <Link to='/multitech' style={{textDecoration:'none'}}><ListItemText style={{color:'black'}} primary="MultiTech Event 2020"/></Link>
     </ListItem>
     <Divider />
-    <ListItem button>
-        <Link to='/informationtech' style={{textDecoration:'none'}}><ListItemText style={{color:'black'}} primary="Information Technology"/></Link>
-    </ListItem>
-    <Divider />
-    <ListItem button>
-        <Link to='/electronicstelecom' style={{textDecoration:'none'}}><ListItemText style={{color:'black'}} primary="Electronics and Telecommunication"/></Link>
-    </ListItem>
-    <Divider />
+    
     </List>
   </div>
   )
