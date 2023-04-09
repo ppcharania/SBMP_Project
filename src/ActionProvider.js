@@ -24,6 +24,38 @@
       this.setChatbotMessage(message)
     }
 
+    Academic = () => {
+      const message = this.createChatBotMessage("Academics includes",{
+        widget: "Acad"
+      })
+      this.setChatbotMessage(message)
+    }
+
+    AcadUnaid = () => {
+      const message = this.createChatBotMessage("SBM Polytechnic offers full time Diploma in Computer Engineering and Information Technology. Both the courses are self financed.")
+      const message2 = this.createChatBotMessage("Each is of Three Years Full Time Diploma with Semester-Pattern having Choice and Credit Based System (CCBS).The students has to complete the course in six terms to award Diploma.For information regarding the number of intakes per department click on the link below",{
+        widget: "AcadUnaid"
+      })
+      this.setChatbotMessage(message)
+      this.setChatbotMessage(message2)
+    }
+
+    Acadaid = () => {
+      const message = this.createChatBotMessage("The full time diploma courses (Civil Engineering, Mechanical Engineering, Electrical Engineering, Industrial Electronics, Plastic Engineering, Chemical Engineering, Ditial Electronics and Electronics & telecommunication ) are of three year's duration and fifth semesters incorporates an inplant training.")
+      const message2 = this.createChatBotMessage("The students receive institutional training for the first four and Sixth semesters. In the fifth semester they are sent to industry for inplant or field training.For information regarding the number of intakes per department click on the link below",{
+        widget: "Acadaid"
+      })
+      this.setChatbotMessage(message)
+      this.setChatbotMessage(message2)
+    }
+
+    FeesStruc = () => {
+      const message = this.createChatBotMessage("The information for Fee Structure of Diploma in both Aided and Unaided Departments in SBMP is updated every year on the official website. For the information regarding this year Fee Structure click on the link below",{
+        widget: "Fees"
+      })
+      this.setChatbotMessage(message)
+    }
+    
     Unhand = () => {
       const message = this.createChatBotMessage("We have following Unaided Departments",{
         widget: "unaid"
@@ -56,6 +88,13 @@
 
     Address = () => {
       const message = this.createChatBotMessage("Shri Bhagubhai Mafatlal Polytechnic Irla, N. R. G Marg, Opposite Cooper Hospital, Vileparle (W), Mumbai 400056 India")
+      this.setChatbotMessage(message)
+    }
+
+    FAQS = () => {
+      const message = this.createChatBotMessage("Some of the Frequently Asked Questions are as follows:",{
+        widget: "FAQ"
+      })
       this.setChatbotMessage(message)
     }
     

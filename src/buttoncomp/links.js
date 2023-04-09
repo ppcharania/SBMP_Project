@@ -1,75 +1,94 @@
 import React from 'react'
 import {Link} from 'react-router-dom';
 
+
+export function AcadUnaided() {
+  return(
+      <Link to="/diplomaunaided">Diploma (Unaided)</Link>
+  )
+} 
+
+export function AcadAided() {
+  return(
+      <Link to="/diplomaaided">Diploma (Aided)</Link>
+  )
+} 
+
+export function Fees() {
+  return(
+      <Link to="/feestructure">Fees Infromation</Link>
+  )
+} 
+
 export function Civil() {
     return(
-        <Link to="/civilengg" style={{textDecoration:'none'}}>Civil Engineering</Link>
+        <Link to="/civilengg">Civil Engineering</Link>
     )
 } 
 
 export function Mechanical() {
   return(
-      <Link to='/mechanicalengg' style={{textDecoration:'none'}}>Mechanical Engineering</Link>
+      <Link to='/mechanicalengg'>Mechanical Engineering</Link>
   )
 } 
 
 export function Electrical() {
   return(
-      <Link to='/electricalengg' style={{textDecoration:'none'}}>Electrical Engineering</Link>
+      <Link to='/electricalengg'>Electrical Engineering</Link>
   )
 } 
 
 export function Industrial() {
   return(
-      <Link to='/industrialelec' style={{textDecoration:'none'}}>Industrial Engineering</Link>
+      <Link to='/industrialelec'>Industrial Engineering</Link>
   )
 } 
 
 export function Plastic() {
   return(
-      <Link to='/plasticengg' style={{textDecoration:'none'}}>Plastic Engineering</Link>
+      <Link to='/plasticengg'>Plastic Engineering</Link>
   )
 } 
 
 export function Chemical() {
   return(
-      <Link to='/chemicalengg' style={{textDecoration:'none'}}>Chemical Engineering</Link>
+      <Link to='/chemicalengg'>Chemical Engineering</Link>
   )
 }
 
 export function Digital() {
   return(
-      <Link to='/digitalelec' style={{textDecoration:'none'}}>Digital Engineering</Link>
+      <Link to='/digitalelec'>Digital Engineering</Link>
   )
 } 
 
 export function Computer() {
   return(
-      <Link to='/computerengg' style={{textDecoration:'none'}}>Computer Engineering</Link>
+      <Link to='/computerengg'>Computer Engineering</Link>
   )
 } 
 
 export function IT() {
   return(
-      <Link to='/informationtech' style={{textDecoration:'none'}}>Information Technology</Link>
+      <Link to='/informationtech'>Information Technology</Link>
   )
 } 
 
 export function Extc() {
   return(
-      <Link to='/electronicstelecom' style={{textDecoration:'none'}}>Electrionics and Telecommunications Engineering</Link>
+      <Link to='/electronicstelecom'>Electrionics and Telecommunications Engineering</Link>
   )
 } 
 
 export function Aboutsbmp() {
   return(
-      <Link to='/aboutsbmp' style={{textDecoration:'none'}}>About SBMP</Link>
+      <Link to='/aboutsbmp'>About SBMP</Link>
   )
 } 
 
 export function Admission() {
   return(
-      <Link to='/admissions' style={{textDecoration:'none'}}>Admission Details</Link>
+      <Link to='/admissions'>Admission Details</Link>
   )
 } 
 

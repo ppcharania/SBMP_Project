@@ -9,12 +9,12 @@ const options = (props) => {
         <Stack direction="row" spacing={1}>
         <Button size = "small" variant="outlined" onClick={props.actionProvider.About}>About</Button>
         <Button size = "small" variant="outlined" color="primary" onClick={props.actionProvider.Dephand}>Deparment</Button>
-        <Button size = "small" variant="outlined" color="primary">Academic</Button>
+        <Button size = "small" variant="outlined" color="primary" onClick={props.actionProvider.Academic}>Academics</Button>
         </Stack>
         <Stack direction="row" spacing={1} marginTop="15px">
         <Button size = "small" variant="outlined" onClick={props.actionProvider.Contact}>Contact</Button>
         <Button size = "small" variant="outlined" color="primary" onClick={props.actionProvider.Admission}>Admissions</Button>
-        <Button size = "small" variant="outlined" color="primary">FAQ</Button>
+        <Button size = "small" variant="outlined" color="primary" onClick={props.actionProvider.FAQS}>FAQS</Button>
         </Stack>
         </>
     )

@@ -154,6 +154,7 @@
     opacity: 0;
     pointer-events: none;
     transition: .5s;
+    z-index: 1;
 }
 .LastDrop{
     width: 15rem;

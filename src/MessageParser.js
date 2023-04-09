@@ -9,6 +9,7 @@ class MessageParser {
     const greetings = ["hello", "hi", "howdy"];
     const admission = ["admission","admission details","how can i get admission in sbmp","sbmp admission"]
     const about = ["about college","sbmp","college info","college information","when was the college founded"]
+    const Fees = ["fees","fees structure","admission cost","cost","fee structure","fee"]
     if (greetings.some(el => lowercase.includes(el)))
     {
       this.actionProvider.GreetHandler()
@@ -66,6 +67,10 @@ class MessageParser {
     else if (admission.some(el => lowercase.includes(el)))
     {
       this.actionProvider.Admission()
+    }
+    else if (Fees.some(el => lowercase.includes(el)))
+    {
+      this.actionProvider.FeesStruc()
     }
     else
     {
