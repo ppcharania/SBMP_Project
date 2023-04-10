@@ -145,7 +145,7 @@ function App() {
         position: 'fixed',
         right: '25px',
         bottom: '50px',
-        zIndex: '1',
+        zIndex: '10',
       }}
       >
         <Chatbot/>

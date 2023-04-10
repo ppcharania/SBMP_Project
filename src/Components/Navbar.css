@@ -1,6 +1,7 @@
 .navbar {
     
     background-color: blue; 
+    position: sticky;
   }
   
   @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
@@ -29,7 +30,7 @@
     top: 0px;
     background-color: #60b4df;
     width: 100%;
-    z-index: 1000;
+    z-index: 100;
 }
 
 /* section{
@@ -147,6 +148,7 @@
 
 .dropdown{
     position: absolute;
+    z-index: 1;
     top: 100%;
     left: 0;
     width: 20rem;
