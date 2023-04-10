@@ -157,12 +157,8 @@ function App() {
         position: 'fixed',
         right: '25px',
         bottom: '50px',
-<<<<<<< HEAD
-        zIndex: '10',
-=======
         zIndex: '1',
        
->>>>>>> 52e3327f7794c1a8b3d793d74de0e7115bbdee9a
       }}
       >
         <Chatbot/>

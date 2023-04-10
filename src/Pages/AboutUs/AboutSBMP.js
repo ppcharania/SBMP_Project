@@ -1,6 +1,5 @@
 import React from 'react'
 import SideNav from './SideNav'
-<<<<<<< HEAD
 import Box from '@mui/material/Box';
 import Tab from '@mui/material/Tab';
 import TabContext from '@mui/lab/TabContext';
@@ -201,16 +200,6 @@ import SBMPlogo from '../../Assets/AboutUs/SBMPlogo.jpg'
           </Box>
         </div>
   
-=======
-
-const AboutSBMP = () => {
-  return (
-    <div className='FullPage' style={{display:'flex'}}>
-      <SideNav/>
-      <div style={{float:'left', width:'30%', paddingLeft:'10px'}}> 
-        <h1>About SBMP</h1>
-        
->>>>>>> 52e3327f7794c1a8b3d793d74de0e7115bbdee9a
       </div>
     )
   }
