@@ -4,6 +4,8 @@ import BotAvatar from './Components/BotAvatar';
 import Options from './Components/options';
 import TimeTable from './Components/timetable';
 import Department from './buttoncomp/Department';
+import FAQS from './buttoncomp/FAQS';
+import Academics from './buttoncomp/Academics';
 import Unaided from './buttoncomp/Unaided';
 import Aided from './buttoncomp/Aided';
 import { Computer } from './buttoncomp/links';
@@ -17,6 +19,11 @@ import { Chemical } from './buttoncomp/links';
 import { Digital } from './buttoncomp/links';
 import { Extc } from './buttoncomp/links';
 import { Aboutsbmp } from './buttoncomp/links';
+import { Admission } from './buttoncomp/links';
+import { AcadUnaided } from './buttoncomp/links';
+import { AcadAided } from './buttoncomp/links';
+import { Fees } from './buttoncomp/links';
+
 
 const config = {
   initialMessages: [
@@ -44,6 +51,22 @@ const config = {
       widgetFunc: (props) => <Department {...props}/>
     },
     {
+      widgetName: "Acad",
+      widgetFunc: (props) => <Academics {...props}/>
+    },
+    {
+      widgetName: "AcadUnaid",
+      widgetFunc: (props) => <AcadUnaided {...props}/>
+    },
+    {
+      widgetName: "Acadaid",
+      widgetFunc: (props) => <AcadAided {...props}/>
+    },
+    {
+      widgetName: "Fees",
+      widgetFunc: (props) => <Fees {...props}/>
+    },
+    {
       widgetName: "unaid",
       widgetFunc: (props) => <Unaided {...props}/>
     },
@@ -59,7 +82,7 @@ const config = {
       widgetName: "ITredirect",
       widgetFunc: (props) => <IT {...props}/>
     },
-    {
+    { 
       widgetName: "Civilredirect",
       widgetFunc: (props) => <Civil {...props}/>
     },
@@ -94,6 +117,14 @@ const config = {
     {
       widgetName: "Aboutsbmp",
       widgetFunc: (props) => <Aboutsbmp {...props}/>
+    },
+    {
+      widgetName: "Admissions",
+      widgetFunc: (props) => <Admission {...props}/>
+    },
+    {
+      widgetName: "FAQ",
+      widgetFunc: (props) => <FAQS {...props}/>
     },
   ],
 };

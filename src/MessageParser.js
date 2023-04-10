@@ -7,7 +7,9 @@ class MessageParser {
   parse(message) {
     const lowercase = message.toLowerCase()
     const greetings = ["hello", "hi", "howdy"];
-    const about = ["about college","sbmp","college info","college information","when was college founded"]
+    const admission = ["admission","admission details","how can i get admission in sbmp","sbmp admission"]
+    const about = ["about college","sbmp","college info","college information","when was the college founded"]
+    const Fees = ["fees","fees structure","admission cost","cost","fee structure","fee"]
     if (greetings.some(el => lowercase.includes(el)))
     {
       this.actionProvider.GreetHandler()
@@ -52,9 +54,23 @@ class MessageParser {
     {
       this.actionProvider.DigtHand()
     }
+    else if (lowercase.includes("contact")){
+      this.actionProvider.Contact()
+    }
+    else if (lowercase.includes("address")){
+      this.actionProvider.Address()
+    } 
     else if (about.some(el => lowercase.includes(el)))
     {
       this.actionProvider.About()
+    }
+    else if (admission.some(el => lowercase.includes(el)))
+    {
+      this.actionProvider.Admission()
+    }
+    else if (Fees.some(el => lowercase.includes(el)))
+    {
+      this.actionProvider.FeesStruc()
     }
     else
     {

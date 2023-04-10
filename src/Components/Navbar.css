@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .navbar {
     
     background-color: blue; 
@@ -5,6 +6,9 @@
   }
   
   @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+=======
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+>>>>>>> 52e3327f7794c1a8b3d793d74de0e7115bbdee9a
 
 *{
     padding: 0;
@@ -26,11 +30,15 @@
 }
 
 .nav-header{
-    position: sticky;
-    top: 0px;
+    padding-top: 10px;
+    top: 10px;
     background-color: #60b4df;
     width: 100%;
     z-index: 100;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 52e3327f7794c1a8b3d793d74de0e7115bbdee9a
 }
 
 /* section{
@@ -53,16 +61,12 @@
 .container{
     /* max-width: 65rem; */
     /* padding: 0 2rem; */
-    margin: 0 auto;
+    margin: auto;
     display: flex;
     position: relative;
 }
 
-.logo-container{
-    flex: 1;
-    display: flex;
-    align-items: center;
-}
+
 
 .nav-btn{
     flex: 3;
@@ -73,25 +77,8 @@
     flex: 2;
 }
 
-.log-sign{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex: 1;
-}
 
-.logo{
-    color: #fff;
-    font-size: 1.1rem;
-    font-weight: 600;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    line-height: 3rem;
-}
 
-.logo span{
-    font-weight: 300;
-}
 
 .btn{
     display: inline-block;
@@ -100,7 +87,7 @@
     border: 2px solid #fff;
     border-radius: 2rem;
     line-height: 1;
-    margin: 0 .2rem;
+    /* margin: 0 .2rem; */
     transition: .3s;
     text-transform: uppercase;
 }
@@ -126,7 +113,7 @@
 }
 
 .nav-link > a{
-    line-height: 3rem;
+    line-height: 2rem;
     color: #fff;
     /* padding: 0 .8rem; */
     letter-spacing: 1px;
@@ -138,9 +125,9 @@
     gap: 1rem;
 }
 
-.nav-link > a > i{
+/* .nav-link > a > i{
     margin-left: .2rem;
-}
+} */
 
 .nav-link:hover > a{
     transform: scale(1.1);
@@ -156,6 +143,7 @@
     opacity: 0;
     pointer-events: none;
     transition: .5s;
+    z-index: 1;
 }
 .LastDrop{
     width: 15rem;

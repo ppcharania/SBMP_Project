@@ -1,0 +1,11 @@
+.FullPage{
+    width: 100%;
+}
+.MenuCol{
+    float: left;
+    width: 30%;
+}
+.ContentCol{
+    float: left;
+    width: 70%;
+}
