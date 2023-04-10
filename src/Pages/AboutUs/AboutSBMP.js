@@ -21,11 +21,11 @@ import SBMPlogo from '../../Assets/AboutUs/SBMPlogo.jpg'
     return (
       <div className='FullPage' style={{display:'flex'}}>
         <SideNav/>
-        <div style={{float:'left', width:'70%', paddingLeft:'10px', textAlign:'left'}}> 
-        <h4>About SBMP</h4>
+        <div style={{float:'left', width:'70%', textAlign:'left'}}> 
+        <h4 style={{paddingTop:'10px'}}>About SBMP</h4>
         <hr type="soild"></hr>
 
-          <Box sx={{ width: '100%', typography: 'body1' }}>
+          <Box sx={{ width: '100%', typography: 'body1'}}>
             <TabContext value={value}>
               <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
                 <TabList onChange={handleChange} aria-label="lab API tabs example">
@@ -39,22 +39,22 @@ import SBMPlogo from '../../Assets/AboutUs/SBMPlogo.jpg'
               </Box>
 
               <TabPanel value="1">
-              <b>About Shri Bhagubhai Mafatlal Polytechnic</b>
-            
-              <p>Shri Vile Parle Kelavani Mandal established this Polytechnic in 1963 with a munificent donation of RS. 7,50,000/- from Shri Arvind N. Mafatlal and his brothers and named the same after their uncle Shri Bhagubhai Mafatlal.</p>
-              <img src={SBMPlogo} style={{width:'200px', height:'180px', float:'left'}}></img> 
-              <p>Mafatlal family and their industries have taken keen interest in developing the same and given financial support which stands at RS. 43,26,000/- at present. The Polytechnic receives Grants and Project fund from the State and Central Governments for establishing facilities and developing its infrastructures. The Polytechnic has developed excellent interaction and liaison with industries and has received financial support for a variety of projects and towards equipment support.</p>
+                <h5>About Shri Bhagubhai Mafatlal Polytechnic</h5>
+              
+                <p>Shri Vile Parle Kelavani Mandal established this Polytechnic in 1963 with a munificent donation of RS. 7,50,000/- from Shri Arvind N. Mafatlal and his brothers and named the same after their uncle Shri Bhagubhai Mafatlal.</p>
+                <img src={SBMPlogo} style={{width:'200px', height:'180px', float:'left'}}></img> 
+                <p>Mafatlal family and their industries have taken keen interest in developing the same and given financial support which stands at RS. 43,26,000/- at present. The Polytechnic receives Grants and Project fund from the State and Central Governments for establishing facilities and developing its infrastructures. The Polytechnic has developed excellent interaction and liaison with industries and has received financial support for a variety of projects and towards equipment support.</p>
 
-              <p>S.B.M. Polytechnic has created a name for itself by maintaining high standard of discipline and performance. The Polytechnic believes in organising need-based programmes and assisting in-service personnel in education and training activities. The Polytechnic has developed Sandwich Programmes and has diversified its conventional programmes initiated in 1963 into variety of discipline areas as First Level as well as Post-Diploma Level along with in-service programmes. The Polytechnic is a grant-in-aid autonomous institution affiliated to the Maharashtra State Board of Technical Education. The Polytechnic is being managed by the duly constituted Managing Council.</p>
+                <p>S.B.M. Polytechnic has created a name for itself by maintaining high standard of discipline and performance. The Polytechnic believes in organising need-based programmes and assisting in-service personnel in education and training activities. The Polytechnic has developed Sandwich Programmes and has diversified its conventional programmes initiated in 1963 into variety of discipline areas as First Level as well as Post-Diploma Level along with in-service programmes. The Polytechnic is a grant-in-aid autonomous institution affiliated to the Maharashtra State Board of Technical Education. The Polytechnic is being managed by the duly constituted Managing Council.</p>
 
-              <b>Location, Environment and Buildings</b>
-              <img src={SBMP} style={{width:'380px', height:'200px', float:'right', padding:'10px'}}></img>
-              <p>The Polytechnic is located on Road No. 3 crossing Swami Vivekanand Road, Vile Parle (West) at a distance of about two and half km on the west of either Vile Parle or Andheri Railway Station on the Western Railway. The Polytechnic may be reached by a three minutes walk from the Irla Naka Bus Stop. It is bounded on the north by Smt. Chandaben Mohanbhai Patel Homeopathic Medical College, on the east by offices of the Khadi & Village Industries Commission and on the west by the Dr. R. N. Cooper Municipal General Hospital Building. The Narsee Monjee College of Commerce & Economics, the Mithibai College of Arts and Chauhan Institute of Science are situated nearby on the south of Polytechnic. Bus routes available from Andheri Rly. Station (West) are 4 Ltd., 84 Ltd., 202 Ltd., 358 Ltd., 201, 253. The ground plus Five storeyed building of the Polytechnic houses the Administrative Offices, Class rooms, Library, Laboratories, Drawing Halls, Computer Centres, Staff-rooms, Engineering Workshops, as well as Canteen, Staff Club and Staff and Students’ Common Rooms.</p>
+                <b>Location, Environment and Buildings</b>
+                <img src={SBMP} style={{width:'380px', height:'200px', float:'right', padding:'10px'}}></img>
+                <p>The Polytechnic is located on Road No. 3 crossing Swami Vivekanand Road, Vile Parle (West) at a distance of about two and half km on the west of either Vile Parle or Andheri Railway Station on the Western Railway. The Polytechnic may be reached by a three minutes walk from the Irla Naka Bus Stop. It is bounded on the north by Smt. Chandaben Mohanbhai Patel Homeopathic Medical College, on the east by offices of the Khadi & Village Industries Commission and on the west by the Dr. R. N. Cooper Municipal General Hospital Building. The Narsee Monjee College of Commerce & Economics, the Mithibai College of Arts and Chauhan Institute of Science are situated nearby on the south of Polytechnic. Bus routes available from Andheri Rly. Station (West) are 4 Ltd., 84 Ltd., 202 Ltd., 358 Ltd., 201, 253. The ground plus Five storeyed building of the Polytechnic houses the Administrative Offices, Class rooms, Library, Laboratories, Drawing Halls, Computer Centres, Staff-rooms, Engineering Workshops, as well as Canteen, Staff Club and Staff and Students’ Common Rooms.</p>
 
-              <b>Objectives</b>
-              <p>Over the years, objectives of S.B.M.P. have been to initiate, develop and conduct need-based programmes  so as to develop Technical, Managerial and Entrepreneurial skills.
-              S.B.M. Polytechnic aims at upgrading and updating qualification skills and knowledge of technicians already working in the industry  through Continuing Education Programmes and Part Time Diploma Programmes.
-              S.B.M.Polytechnic`s mission is to establish and provide a comprehensive, full equipped training facility in advance technological fields and to cater to industry needs of specialized skills in the emerging high-tech areas</p>
+                <b>Objectives</b>
+                <p>Over the years, objectives of S.B.M.P. have been to initiate, develop and conduct need-based programmes  so as to develop Technical, Managerial and Entrepreneurial skills.
+                S.B.M. Polytechnic aims at upgrading and updating qualification skills and knowledge of technicians already working in the industry  through Continuing Education Programmes and Part Time Diploma Programmes.
+                S.B.M.Polytechnic`s mission is to establish and provide a comprehensive, full equipped training facility in advance technological fields and to cater to industry needs of specialized skills in the emerging high-tech areas</p>
 
                   <b>For achieving these, SBMP strives to</b>
                   <ol type='a'>
@@ -66,10 +66,10 @@ import SBMPlogo from '../../Assets/AboutUs/SBMPlogo.jpg'
               </TabPanel>
 
               <TabPanel value="2">
-              <b>Vision</b>
+              <h5>Vision</h5>
               <p>SBMP Polytechnic aspires to be the lead institute in providing need based technical education.</p>
-
-              <b>Mission</b>
+            z
+              <h5>Mission</h5>
               <ul type='none'>
                 <li>M1: To provide state-of-the-art infrastructure and latest equipments for providing a stimulating learning environment.</li>
                 <li>M2: To prepare students to meet the dynamic needs of the industry by periodic reviewing and upgradation of curriculum through an interactive process with industry.</li>

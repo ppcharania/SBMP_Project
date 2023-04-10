@@ -19,7 +19,7 @@ import OfficeBearers from '../../Assets/AboutUs/OfficeBearers.png'
       <div className='FullPage' style={{display:'flex'}}>
         <SideNav/>
         <div style={{float:'left', width:'70%', paddingLeft:'10px', textAlign:'left'}}> 
-        <h4>About SVKM</h4>
+        <h4 style={{paddingTop:'10px'}}>About SVKM</h4>
         <hr type="soild"></hr>
 
           <Box sx={{ width: '100%', typography: 'body1' }}>

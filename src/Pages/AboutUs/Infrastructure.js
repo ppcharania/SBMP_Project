@@ -26,7 +26,7 @@ const Infrastructure = () => {
       <SideNav/>
       <div style={{float:'left', width:'70%', paddingLeft:'10px', textAlign:'left'}}> 
         
-        <h4>Infrastructure</h4>
+        <h4 style={{paddingTop:'10px'}}>Infrastructure</h4>
         <hr class="solid"></hr>
 
         <b>Library</b>

@@ -7,7 +7,7 @@ const MandatoryDisclosure = () => {
     <div className='FullPage' style={{display:'flex'}}>
       <SideNav/>
       <div style={{float:'left', width:'70%', paddingLeft:'10px', textAlign:'left'}}>
-        <h4>Mandatory Disclosure 2022-23</h4>
+        <h4 style={{paddingTop:'10px'}}>Mandatory Disclosure 2022-23</h4>
         <hr class="solid"></hr>
 
         <ul>

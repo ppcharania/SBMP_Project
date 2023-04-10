@@ -12,7 +12,7 @@ const AdmissionDetails = () => {
         <p>SBM Polytechnic is a Gujrathi speaking Linguistic Minority institution. As per the rules 50% of the intake are reserved(minimum) for the candidate belonging to Gujrathi speaking Linguistic community. Remaining 50% are available for the non Gujarathi ie General category candidates.  
         </p>
         <br></br>
-        <table border= "2" style={{width:'100%'}}>
+        <table style={{width:'100%'}}>
           
           <tr>
             <th>Admission</th>
