@@ -6,7 +6,7 @@ const ContactUs = () => {
       <SideNav/>
       <div style={{float:'left', width:'70%', paddingLeft:'10px', textAlign:'left'}}> 
       
-        <h4>Contact Us</h4>
+        <h4 style={{paddingTop:'10px'}}>Contact Us</h4>
         <hr type="solid"></hr>
         
         <table style={{width:'500px', height:'100px'}}>

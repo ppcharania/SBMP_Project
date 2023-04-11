@@ -5,7 +5,7 @@ const PlacementCell = () => {
     <div className='FullPage' style={{display:'flex'}}>
       <SideNav/>
       <div style={{float:'left', width:'70%', paddingLeft:'10px', textAlign:'left'}}> 
-        <h4>Placement Cell</h4>
+        <h4 style={{paddingTop:'10px'}}>Placement Cell</h4>
         <hr type="solid"></hr>
         <p>S.B.M. Polytechnic conducts seven sandwich pattern four year full time and two three year Diploma programs in Engineering / Technology. Each year more than 240 students are placed for Inplant Training at various industries in two phases. Starting with 90 students in 1971, over 17000 students have gone through 6 months Inplant Training in more than 200 industries till this year. Most of the students prefer to go for Higher Education after Diploma. All the students who opt for jobs after completion of Diploma are provided special soft skill training and placed for jobs through campus recruitment process.</p>
         <b>List of Placement Industries</b>

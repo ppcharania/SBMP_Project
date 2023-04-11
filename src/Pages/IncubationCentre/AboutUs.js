@@ -6,7 +6,7 @@ const AboutUs = () => {
       <SideNav/>
       <div style={{float:'left', width:'70%', paddingLeft:'10px', textAlign:'left'}}> 
        
-        <h4>About Us</h4>
+        <h4  style={{paddingTop:'10px'}}>About Us</h4>
         <hr type="solid"></hr>
         
         <p>SVKM’s Shri Bhagubhai Mafatlal Polytechnic has created a name for itself by maintaining high standard of discipline and performance. The Polytechnic believes in organising need-based programmes and assisting in-service personnel in education and training activities. To add a crown to the academics, the polytechnic has started with the platform for entrepreneurship that is the Incubation Centre.</p>

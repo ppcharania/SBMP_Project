@@ -5,7 +5,7 @@ const Associations = () => {
     <div className='FullPage' style={{display:'flex'}}>
       <SideNav/>
       <div style={{float:'left', width:'70%', paddingLeft:'10px', textAlign:'left'}}> 
-        <h4>Association</h4>
+        <h4  style={{paddingTop:'10px'}}>Association</h4>
         <hr type="solide"></hr>
 
         <b>Association with Government /National/ International professional bodies</b><br></br>

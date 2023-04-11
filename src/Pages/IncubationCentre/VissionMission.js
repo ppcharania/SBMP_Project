@@ -5,7 +5,7 @@ const VissionMission = () => {
     <div className='FullPage' style={{display:'flex'}}>
       <SideNav/>
       <div style={{float:'left', width:'70%', paddingLeft:'10px', textAlign:'left'}}> 
-        <h4>Vission and Mission</h4>
+        <h4 style={{paddingTop:'10px'}}>Vission and Mission</h4>
         <hr type="solid"></hr>
         
         <b>Vision</b>

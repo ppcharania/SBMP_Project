@@ -5,7 +5,7 @@ const DiplomaUnaided = () => {
     <div className='FullPage' style={{display:'flex'}}>
       <SideNav/>
       <div style={{float:'left', width:'70%', paddingLeft:'10px', textAlign:'left'}}> 
-        <h4>Diploma(Unaided)</h4>
+        <h4  style={{paddingTop:'10px'}}>Diploma(Unaided)</h4>
         <hr class="solid"></hr>
         
         <b>Three Year Fulltime </b>

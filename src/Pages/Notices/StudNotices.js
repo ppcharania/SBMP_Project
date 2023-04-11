@@ -5,7 +5,7 @@ const StudNotices = () => {
     <div className='FullPage' style={{display:'flex'}}>
       <SideNav/>
       <div style={{float:'left', width:'70%', paddingLeft:'10px', textAlign:'left'}}> 
-        <h4>Student Notices</h4>
+        <h4 style={{paddingTop:'10px'}}>Student Notices</h4>
         <hr type="solid"></hr>
         
       </div>

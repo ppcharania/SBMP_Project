@@ -17,7 +17,7 @@ const ManagingTeam = () => {
     <div className='FullPage' style={{display:'flex'}}>
       <SideNav/>
       <div style={{float:'left', width:'70%', paddingLeft:'10px', textAlign:'left'}}> 
-        <h4>Core Managing Team</h4>
+        <h4 style={{paddingTop:'10px'}}>Core Managing Team</h4>
         <hr type="solid"></hr>
 
         <table style={{width:'900px'}}>

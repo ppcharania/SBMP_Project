@@ -5,7 +5,7 @@ const DiplomaAided = () => {
     <div className='FullPage' style={{display:'flex'}}>
       <SideNav/>
       <div style={{float:'left', width:'70%', paddingLeft:'10px', textAlign:'left'}}> 
-        <h4>Diploma(Aided)</h4>
+        <h4  style={{paddingTop:'10px'}}>Diploma(Aided)</h4>
         <hr class="solid"></hr>
         <b>Three Year Fulltime Diploma</b>
         <p>The full time diploma courses (Civil Engineering, Mechanical Engineering, Electrical Engineering, Industrial Electronics, Plastic Engineering, Chemical Engineering, Ditial Electronics and Electronics & telecommunication) are of three year's duration and fifth semesters incorporates an inplant training. The courses are thus spread over six semesters. The students receive institutional training for the first four and Sixth semesters. In the fifth semester they are sent to industry for inplant or field training. This scheme enables the students to learn under actual work situation during their training and improves their prospects for employment. Final diploma is awarded after satisfactory completion of training and examination at the end of the sixth semester.</p>

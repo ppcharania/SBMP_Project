@@ -5,6 +5,7 @@ import Tab from '@mui/material/Tab';
 import TabContext from '@mui/lab/TabContext';
 import TabList from '@mui/lab/TabList';
 import TabPanel from '@mui/lab/TabPanel';
+import SVKMlogo from '../../Assets/AboutUs/SVKMlogo.png'
 import OfficeBearers from '../../Assets/AboutUs/OfficeBearers.png'
 
 
@@ -35,8 +36,8 @@ import OfficeBearers from '../../Assets/AboutUs/OfficeBearers.png'
 
               <TabPanel value="1">
 
-              <b>About Shri Vile Parle Kelavani Mandal</b>
-            
+              <h5>About Shri Vile Parle Kelavani Mandal</h5>
+             
               <p>Shri Vile Parle Kelavani Mandal is a Public Charitable Trust registered under the Society’s Registration Act and Bombay Public Trust Act. From its humble beginnings in 1934, when it took over the Rashtriya Shala, a school established in 1921 in the wake of the National Movement, the Mandal today has grown into a big educational complex imparting high-level education to more than 35,000 students.</p>
  
               <p>The ethos of the Mandal, is marked by patriotic fervor, selfless service and a spirit of indigenous enterprise. These values permeate all the institutions set up by the Mandal and are the guiding principles for all of them. After beginning its journey in the early 1930s SVKM has blossomed into an educational colossus that has attained national recognition in multiple streams of higher education. With a strong guiding philosophy of providing education to all levels of the student community along with creating a feeling of bonding and commitment amongst academic and nonacademic employees. SVKM has mastered the art of being able to transform itself into a close knit family and at the same time help its students to attain all-round development, be employable and achieve success.</p>
