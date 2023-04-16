@@ -59,6 +59,9 @@ class MessageParser {
     }
     else if (lowercase.includes("address")){
       this.actionProvider.Address()
+    }
+    else if (lowercase.includes("location")){
+      this.actionProvider.Address()
     } 
     else if (about.some(el => lowercase.includes(el)))
     {

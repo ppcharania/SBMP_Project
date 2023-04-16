@@ -206,7 +206,9 @@
     }
 
     elseHandler = () => {
-      const message = this.createChatBotMessage("Sorry Did not get you")
+      const message = this.createChatBotMessage("Sorry We did not get your message",{
+        widget: "options"
+      })
       this.setChatbotMessage(message)
     }
 

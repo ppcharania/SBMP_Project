@@ -4,6 +4,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import Slider1 from '../Assets/One.png';
 import Slider2 from '../Assets/Two.png';
 import Slider3 from '../Assets/Three.png';
+import { CardContent } from '@mui/material';
 
 const Header = () => {
   return (
@@ -20,6 +21,9 @@ const Header = () => {
           <div style={{paddingBottom:"150px"}}><h4>Shri Vile Parle Kelvani Mandal's</h4>
           <b><h1>Shri Bhagubhai Mafatlal Polytechnic</h1></b></div>
         </Carousel.Caption>
+        <CardContent>
+          
+        </CardContent>
       </Carousel.Item>
       <Carousel.Item>
         <img height={"500px"} style={{filter:"brightness1(75%)"}}

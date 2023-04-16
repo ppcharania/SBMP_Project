@@ -20,11 +20,11 @@ const FAQS = (props) => {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography>What are the Office working hours</Typography>
+          <Typography style={{fontSize: '0.85rem'}}>What are the Office working hours</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Office working hours in Shri Bhagubhai Mafatlal Polytechnic are from 9:00am to 5:00pm
+            Office working hours in Shri Bhagubhai Mafatlal Polytechnic are from 9:00am to 4:00pm
           </Typography>
         </AccordionDetails>
       </Accordion>
