@@ -4,12 +4,20 @@ import Carousel from 'react-bootstrap/Carousel';
 import Slider1 from '../Assets/One.png';
 import Slider2 from '../Assets/Two.png';
 import Slider3 from '../Assets/Three.png';
+import { Link } from 'react-router-dom';
+import Logo from '../Assets/Logo.png'
+import SBMPLogo from '../Assets/SBMPLogo.png'
 
 const Header = () => {
   return (
     
-    <div>
-    <Carousel fade style={{width:"100%"}}>
+    <div >
+      <div className='Static_sbmp_header' ><Link to="/"><img className='Logo1' src={Logo}></img>
+        <div className='title' >Shri Bhagubhai Mafatlal Polytechnic</div>
+        <img className='Logo2' src={SBMPLogo}></img></Link>
+      </div>
+    <div className = "Cr1">
+    <Carousel className='Carousel1' fade>
       <Carousel.Item>
         <img height={"500px"} style={{filter:"brightness1(75%)"}}
           className="d-block w-100"
@@ -46,11 +54,8 @@ const Header = () => {
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
+    </div>
     
-    {/* <div className='Static_sbmp_header'><Link to="/"><img className='Logo1' src={Logo}></img>
-      <span>Shri Bhagubhai Mafatlal Polytechnic</span>
-      <img className='Logo2' src={SBMPLogo}></img></Link>
-    </div> */}
     </div>
     
   )

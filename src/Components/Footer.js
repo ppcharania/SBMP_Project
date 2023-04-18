@@ -16,31 +16,31 @@ const Footer = () => {
   return (
     <MDBFooter className='text-center' color='white' bgColor='dark' >
       <MDBContainer className='p-4'>
-        <section className='mb-4'>
-          <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
+        <div className='mb-4'>
+          <MDBBtn outline color="light"  className='m-1' href='#!' role='button'>
             <FacebookIcon/>
           </MDBBtn>
 
-          <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
+          <MDBBtn outline color="light"  className='m-1' href='#!' role='button'>
             <InstagramIcon/>
           </MDBBtn>
 
-          <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
+          <MDBBtn outline color="light"  className='m-1' href='#!' role='button'>
             <TwitterIcon/>
           </MDBBtn>
 
-          <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
+          <MDBBtn outline color="light"  className='m-1' href='#!' role='button'>
             <GoogleIcon/>
           </MDBBtn>
 
-          <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
+          <MDBBtn outline color="light"  className='m-1' href='#!' role='button'>
             <GitHubIcon/>
           </MDBBtn>
 
           
-        </section>
-
-        <section className=''>
+        </div>
+        
+        <div className=''>
           <form action=''>
             <MDBRow className='d-flex justify-content-center'>
               <MDBCol size="auto">
@@ -60,11 +60,11 @@ const Footer = () => {
               </MDBCol>
             </MDBRow>
           </form>
-        </section>
+        </div>
 
         
 
-        <section className=''>
+        <div className=''>
           <MDBRow>
             <MDBCol lg='3' md='6' className='mb-4 mb-md-0'>
               <h5 className='text-uppercase'>Link</h5>
@@ -87,7 +87,7 @@ const Footer = () => {
               
             </MDBCol>
           </MDBRow>
-        </section>
+        </div>
       </MDBContainer>
 
       
