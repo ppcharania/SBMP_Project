@@ -1,5 +1,6 @@
 import React from 'react'
 import SideNav from './SideNav'
+import './NoCarousel.css'
 import NBA from '../../Assets/AboutUs/NBA.pdf'
 
 const MandatoryDisclosure = () => {

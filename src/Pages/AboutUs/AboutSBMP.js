@@ -21,7 +21,6 @@ import SBMPlogo from '../../Assets/AboutUs/SBMPlogo.jpg'
     return (
       <div className='FullPage' style={{display:'flex'}}>
         <SideNav/>
-        <div style={{float:'left', width:'70%', textAlign:'left'}}> 
         <div style={{float:'left', width:'70%', paddingLeft:'10px', textAlign:'left'}}> 
         <h4 style={{paddingTop:'10px'}}>About SBMP</h4>
         <hr type="soild"></hr>
@@ -204,7 +203,6 @@ import SBMPlogo from '../../Assets/AboutUs/SBMPlogo.jpg'
           </Box>
         </div>
   </div>
-      </div>
     )
   }
   export default AboutSBMP
