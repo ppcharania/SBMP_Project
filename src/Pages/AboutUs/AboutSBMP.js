@@ -21,10 +21,12 @@ import SBMPlogo from '../../Assets/AboutUs/SBMPlogo.jpg'
     return (
       <div className='FullPage' style={{display:'flex'}}>
         <SideNav/>
+        <div style={{float:'left', width:'70%', textAlign:'left'}}> 
         <div style={{float:'left', width:'70%', paddingLeft:'10px', textAlign:'left'}}> 
         <h4 style={{paddingTop:'10px'}}>About SBMP</h4>
         <hr type="soild"></hr>
 
+          <Box sx={{ width: '100%', typography: 'body1'}}>
           <Box sx={{ width: '100%',height: '100%', typography: 'body1'}}>
             <TabContext value={value}>
               <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
@@ -68,6 +70,7 @@ import SBMPlogo from '../../Assets/AboutUs/SBMPlogo.jpg'
               <TabPanel value="2">
               <h5>Vision</h5>
               <p>SBMP Polytechnic aspires to be the lead institute in providing need based technical education.</p>
+            z
             
               <h5>Mission</h5>
               <ul type='none'>
@@ -198,8 +201,9 @@ import SBMPlogo from '../../Assets/AboutUs/SBMPlogo.jpg'
               </TabPanel>
             </TabContext>
           </Box>
+          </Box>
         </div>
-  
+  </div>
       </div>
     )
   }
