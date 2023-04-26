@@ -12,9 +12,9 @@ const Header = () => {
   return (
     
     <div >
-      <div className='Static_sbmp_header' ><Link to="/"><img className='Logo1' src={Logo}></img>
+      <div className='Static_sbmp_header' ><Link to="/"><img className='Logo1' src={Logo} alt = 'Logo1'></img>
         <div className='title' >Shri Bhagubhai Mafatlal Polytechnic</div>
-        <img className='Logo2' src={SBMPLogo}></img></Link>
+        <img className='Logo2' src={SBMPLogo} alt = "logo2"></img></Link>
       </div>
     <div className = "Cr1">
     <Carousel className='Carousel1' fade>

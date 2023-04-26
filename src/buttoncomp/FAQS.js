@@ -4,7 +4,7 @@ import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-
+import { Link } from 'react-router-dom';
 
 const FAQS = (props) => {
   const [expanded, setExpanded] = React.useState();
@@ -20,7 +20,7 @@ const FAQS = (props) => {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography style={{fontSize: '0.85rem'}}>What are the Office working hours</Typography>
+          <Typography style={{fontSize: '1rem'}}>What are the Office working hours</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
@@ -34,12 +34,12 @@ const FAQS = (props) => {
           aria-controls="panel2a-content"
           id="panel2a-header"
         >
-          <Typography>Accordion 2</Typography>
+          <Typography style={{fontSize: '1rem'}}>Difference between Aided and Unaided Courses</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
+          The courses that gets aid from the government(MSBTE) is termed as aided courses(Civil, Mechanical, Electrical, Industrial, Plastics, Chemical, Digital, EXTC) 
+          whereas the courses that does not get any funds or aid from the MSBTE is called as unaided course(CSE and IT).
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -49,12 +49,14 @@ const FAQS = (props) => {
           aria-controls="panel3a-content"
           id="panel3a-header"
         >
-          <Typography>Accordion 3</Typography>
+          <Typography style={{fontSize: '1rem'}}>How to get admitted in SBMP?</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
+            To get admitted in SBMP one can follow rules on MS DTE through state level admission procedure 
+            (CAP) rounds or get sanctioned through institute level admissions for unaided courses.
+            For more info click on link below: 
+            <Link to='/admissions'>Admission Details</Link>
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -64,7 +66,7 @@ const FAQS = (props) => {
           aria-controls="panel4a-content"
           id="panel4a-header"
         >
-          <Typography>Accordion 4</Typography>
+          <Typography style={{fontSize: '1rem'}}>Accordion 4</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
