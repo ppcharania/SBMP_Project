@@ -7,7 +7,7 @@ import Notice1 from '.././Assets/Notice1.pdf'
 import Notice2 from '.././Assets/Notice2.pdf'
 import Landing_Dept from './Landing_Departments'
 import Landing_Cont from './Landing_Content';
-import Landing_Palcement from './Landing_Placemnet';
+import Landing_Palcement from './Landing_Placement';
 import Landing_Notices from './Landing_Notices';
 const Landing = () => {
   return (
