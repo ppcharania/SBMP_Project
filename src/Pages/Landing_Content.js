@@ -17,6 +17,7 @@ import Landing_5 from '../Assets/Landing_5.pdf'
 import Landing_6 from '../Assets/Landing_6.pdf'
 import Landing_7 from '../Assets/Landing_7.pdf'
 import Landing_8 from '../Assets/Landing_8.pdf'
+import Notice2 from '../Assets/Notice2.pdf'
 // import Landing_9 from '../Assets/Landing_9.pdf'
 const Landing_Content = () => {
   const [value, setValue] = React.useState("1");
@@ -25,7 +26,7 @@ const Landing_Content = () => {
     setValue(newValue);
   };
   return (
-    <div className="body1">
+    <div className="body1" >
       <div className="main-containerland">
         <center><h3 sx={{ color: "white"}}>Professional Chapters</h3></center>
         <Box sx={{ width: "100%", typography: "body1" }}>
@@ -85,7 +86,17 @@ const Landing_Content = () => {
         </Box>
       </div>
 
-
+      <div className="main-containerland">
+        <center><h3 sx={{ color: "white"}}>Notice</h3></center>
+        <Box sx={{ width: "100%", typography: "body1" }}>
+            <div className="containerland1">
+              <ul>
+                <li><a target='_blank' style={{textDecoration:'none'}} href={Notice2}>Notice for Students 2022 - 2023(Term Jan 2023 - May 2023)</a></li>
+                
+              </ul>
+            </div>
+        </Box>
+      </div>
     </div>
   );
 };

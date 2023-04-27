@@ -18,9 +18,9 @@ import { Link } from 'react-router-dom';
 
 const Landing_Dept = () => { 
   return (
-    <div style={{backgroundColor:'#ECECEC'}}>
+    <div style={{backgroundColor:'#F5F6F6'}}>
     <h1 style={{ textAlign:'center', width:'100%',padding:'20px'}}>Our Departments<br/></h1>
-    <div style={{backgroundColor:'#ECECEC', display:'flex'}}>
+    <div style={{backgroundColor:'#F5F6F6', display:'flex'}}>
       <Carousel>
         <Carousel.Item>
       <Card sx={{height:'550px', maxWidth: '28%' ,backgroundColor:'#ECECEC', padding:'10px', float:'left', margin:'10px 25px 10px 70px'}}>

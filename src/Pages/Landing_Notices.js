@@ -56,7 +56,7 @@ const Landing_Notices = () => {
                     <p style={{textAlign:'left',marginLeft:'10px'}}><a style={{textDecoration:'none'}} target='_blank' href={SS4}>-Student Summary 2019-20</a></p>
                 </div>
                 <div className='not5' style={{width:'25%', height:'250px', borderRadius:'1rem', float:'left', backgroundColor:'antiquewhite', margin:'25px 25px 25px 25px'}}>
-                <h4 style={{width:'100%', backgroundColor:'white', height:'60px'}}>NOTICES</h4>
+                <h4 style={{width:'100%', backgroundColor:'white', height:'60px'}}>Attendance</h4>
                 <p style={{textAlign:'left',marginLeft:'10px'}}><a style={{textDecoration:'none', }} target='_blank' href={Notice2}>-Notice for Students 2022 - 2023(Term Jan 2023 - May 2023)</a></p>
                 </div>
                 <div className='not6' style={{width:'25%', height:'250px', borderRadius:'1rem', float:'left', backgroundColor:'antiquewhite', margin:'25px 50px 25px 25px'}}>

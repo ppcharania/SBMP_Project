@@ -58,14 +58,23 @@ import Feedback from './Pages/Students/Feedback'
 import PlacementCell from './Pages/Students/PlacementCell'
 import Committee from './Pages/Students/Committee'
 import Association from './Pages/Students/Association'
+import Carousel from './Components/Carousel';
 
 
 function App() {
+  const PageHeader = Header()
+  const PageCarousel = Carousel()
+
   return (
     <div className="App">
-      <div className='App-header'>
-        <Header/>
-      </div>
+      {
+        PageHeader && (
+          <div className='App-header'>
+            <Header/>
+          </div>
+        )
+      }
+      {PageCarousel}
       <Navbar/> 
       <div className='chatbot'>  
       </div>
