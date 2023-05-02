@@ -9,8 +9,8 @@
 }
 
 .containerland {
-  width: 420px;
-  height: 450px;
+  width: 380px;
+  height: 400px;
   padding: 10px;
   padding-top: 40px;
   background: white;
@@ -21,12 +21,13 @@
 
 .main-containerland {
   color: black;
-  width: 420px;
+  width: 380px;
   height: 400px;
-  background: #340d63;
+  /* background-color:  #1b499e; */
+  background-color: #286375;
   border-radius: 1rem;
   float: left;
-  margin: 0px 40px;
+  margin: 0px 15px;
 }
 .main-containerland h3 {
   color: white;
@@ -35,8 +36,8 @@
 
 .innerland {
   margin-top: 10px;
-  width: 410px;
-  height: 400px;
+  width: 370px;
+  height: 350px;
   overflow: hidden;
   overflow-y: scroll;
 }
@@ -44,8 +45,8 @@
   margin-top: 5px;
   overflow: hidden;
   overflow-y: scroll;
-  width: 420px;
-  height: 450px;
+  width: 380px;
+  height: 400px;
   padding: 10px;
   padding-top: 20px;
   background: white;

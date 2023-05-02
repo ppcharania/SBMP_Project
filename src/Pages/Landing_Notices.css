@@ -4,10 +4,10 @@
     color: black;
     width: 420px;
     height: 400px;
-    background: antiquewhite;
+    background: #c4edfa;
     border-radius: 1rem;
     float: left;
-    margin: 175px 25px;
+    margin: 175px 0px;
   }
   .main-containerland_not h3 {
     color: black;
@@ -34,12 +34,12 @@
  
   .main-containerland_not1 {
     color: black;
-    width: 500px;
+    width: 450px;
     height: 600px;
-    background: antiquewhite;
+    background: #addbe2;
     border-radius: 1rem;
     float: left;
-    margin: 170px 0px;
+    margin: 110px 0px 110px 20px;
   }
   .main-containerland_not1 h3 {
     color: black;
@@ -49,11 +49,11 @@
 
   .containerland1_not1{
     margin-top: 5px;
-    width: 500px;
+    width: 450px;
     height: 550px;
     padding: 10px;
     padding-top: 20px;
-    background: white;
+    background: #34788d;
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;

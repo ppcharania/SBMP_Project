@@ -1,6 +1,5 @@
 import React from 'react'
 import './Header.css'
-import Carousel from 'react-bootstrap/Carousel';
 import { Link, useLocation} from 'react-router-dom';
 import Logo from '../Assets/Logo.png'
 import SBMPLogo from '../Assets/SBMPLogo.png'
@@ -15,7 +14,7 @@ const Header = () => {
     
     <div >
       <div className='Static_sbmp_header' ><Link to="/"><img className='Logo1' src={Logo} alt = 'Logo1'></img>
-        <div className='title' >Shri Bhagubhai Mafatlal Polytechnic</div>
+        <div className='title' style={{color:'#041c9c', fontSize:'30px'}} ><b>Shri Bhagubhai Mafatlal Polytechnic</b></div>
         <img className='Logo2' src={SBMPLogo} alt = "logo2"></img></Link>
     </div>
     </div>

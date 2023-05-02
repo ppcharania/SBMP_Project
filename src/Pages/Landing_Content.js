@@ -18,7 +18,7 @@ import Landing_6 from '../Assets/Landing_6.pdf'
 import Landing_7 from '../Assets/Landing_7.pdf'
 import Landing_8 from '../Assets/Landing_8.pdf'
 import Notice2 from '../Assets/Notice2.pdf'
-// import Landing_9 from '../Assets/Landing_9.pdf'
+
 const Landing_Content = () => {
   const [value, setValue] = React.useState("1");
 
@@ -31,15 +31,15 @@ const Landing_Content = () => {
         <center><h3 sx={{ color: "white"}}>Professional Chapters</h3></center>
         <Box sx={{ width: "100%", typography: "body1" }}>
           <TabContext value={value}>
-            <div style={{ position: "absolute" ,width:'400px',display:'flex',justifyContent:'space-evenly',boxShadow: 'rgba(0, 0, 0, 0.18) 0px 2px'}}>
+            <div style={{ position: "absolute" ,width:'350px',display:'flex',justifyContent:'space-evenly',boxShadow: 'rgba(0, 0, 0, 0.18) 0px 2px'}}>
               <Box sx={{ borderBottom: 1, borderColor: "divider" }}>
                 <TabList
                   onChange={handleChange}
                   aria-label="lab API tabs example"
                 >
-                  <Tab label="CSI Chapter" value="1" />
-                  <Tab label="ISTE Chapter" value="2" />
-                  <Tab label="ACI Chapter" value="3" />
+                  <Tab label="CSI" value="1" />
+                  <Tab label="ISTE" value="2" />
+                  <Tab label="ACI" value="3" />
                 </TabList>
               </Box>
             </div>

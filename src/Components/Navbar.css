@@ -5,9 +5,9 @@
 }
 
 .navbar{
-    font-family: 'Poppins', sans-serif;
-    overflow: hidden;
-    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow-x: hidden;
+    font-size: 20px;
 }
 
 .ul{
@@ -18,14 +18,32 @@
     text-decoration: none;
 }
 
-.nav-header{
+.nav-header-primary {
     padding-top: 10px;
     top: 10px;
-    background-color: #3F6793;
+    /* background-color: #1b499e; */
     width: 100%;
-    z-index: 100;
+    z-index: 1000;
+    background-color: #addbe2;
+
 }
 
+.nav-header-secondary {
+    background-color: #34788d;
+    padding-top: 10px;
+    top: 10px;
+    /* background-color: #1b499e; */
+    width: 100%;
+    z-index: 1000;
+
+}
+
+.n-link-primary > a{
+    color: black;
+}
+.n-link-secondary > a{
+    color: white;
+}
 /* section{
     position: relative;
     height: calc(100vh - 3rem);
@@ -79,7 +97,7 @@
 }
 
 .btn.solid, .btn.transparent:hover{
-    background-color: #fff;
+    background-color: black;
     color: #69bde7;
 }
 
@@ -100,15 +118,15 @@
 
 .nav-link > a{
     line-height: 2rem;
-    color: #fff;
+    /* color: black; */
     /* padding: 0 .8rem; */
     letter-spacing: 1px;
-    font-size: .95rem;
+    font-size: .90rem;
     display: flex;
     /* align-items: center; */
     justify-content: space-evenly;
     transition: .5s;
-    gap: 1rem;
+    gap: 0.9rem;
 }
 
 /* .nav-link > a > i{
