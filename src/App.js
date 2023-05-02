@@ -58,8 +58,9 @@ import Feedback from './Pages/Students/Feedback'
 import PlacementCell from './Pages/Students/PlacementCell'
 import Committee from './Pages/Students/Committee'
 import Association from './Pages/Students/Association'
+import Carousel from './Components/Carousel';
 import Voiceassistant from './Components/voiceassistant';
-import Carousel  from './Components/Carousel';
+
 
 function App() {
   const PageHeader = Header()
@@ -67,13 +68,18 @@ function App() {
 
   return (
     <div className="App">
-      <div className='App-header'>
-        <Header/>
-      </div>
-      <div className = 'Voiceassistant'>
-      <Voiceassistant/>
-      </div>
+      {
+        PageHeader && (
+          <div className='App-header'>
+            <Header/>
+          </div>
+        )
+      }
+      {PageCarousel}
       <Navbar/> 
+      <div className='Voice'>
+        <Voiceassistant/>  
+      </div>
       <div className='Pages'>
       <Routes>
         <Route path="/" element={<Landing/>}/>
@@ -163,6 +169,7 @@ function App() {
         right: '25px',
         bottom: '50px',
         zIndex: '1',
+       
       }}
       >
         <Chatbot/>

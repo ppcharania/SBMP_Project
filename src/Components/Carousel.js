@@ -5,7 +5,7 @@ import './Carousel.css';
 import Slider1 from '../Assets/One.png';
 import Slider2 from '../Assets/Two.png';
 import Slider3 from '../Assets/Three.png';
-
+import Slider4 from '../Assets/Four.jpg'
 export default function PageCarousel(){
     const {pathname} = useLocation()
     if (pathname !== "/"){
@@ -19,7 +19,7 @@ export default function PageCarousel(){
         <Carousel.Item >
             <img height={"500px"} style={{filter:"brightness1(75%)"}}
             className="d-block w-100"
-            src={Slider1}
+            src={Slider4}
             alt="First slide"
             />
             <Carousel.Caption style={{font:'Segeo'}}>
