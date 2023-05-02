@@ -13,7 +13,7 @@ const style = {
 };
 const SideNav = () => {
   return (
-    <div style={{float:'left', width:'20%', padding:'1px'}} className='SideMenu'>
+    <div style={{float:'left', width:'20%',}} className='SideMenu'>
     <List sx={style} component="nav" aria-label="mailbox folders">
     <ListItem button>
         <Link to='/aboutsvkm' style={{textDecoration:'none'}}><ListItemText style={{color:'black'}} primary="About SVKM"/></Link>

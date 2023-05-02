@@ -1,0 +1,20 @@
+
+@media only screen and (max-width: 640px) {
+    .DeptBody{
+      background-color: gray;
+    }
+    .dept-cards{
+      display:flex;
+      flex-direction: column;
+    }
+  }
+  @media only screen and (max-width: 1007px) and (min-width: 641px) {
+    .DeptBody{
+      background-color: blue;
+    }
+  }
+  @media only screen and (min-width: 1008px) {
+    .DeptBody{
+      background-color: greenyellow;
+    }
+  }

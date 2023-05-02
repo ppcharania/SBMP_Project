@@ -1,20 +1,27 @@
 import React from 'react'
 import './Navbar.css'
-
+import { useLocation } from 'react-router-dom';
 import { Link } from "react-router-dom";
 const Navbar = () => {
-  
+    const {pathname} = useLocation()
+
+
   return (
     <div classNameName="navbar">
-        <div className="nav-header">
+        <div className={
+            `${pathname === '/' ? 
+                'nav-header-primary' : 'nav-header-secondary'
+            }`
+        }>
                 <div className="container">
                     
 
                     <div className="nav-btn">
                         <div className="nav-links">
                             <ul style={{listStyleType:"none"}}>
-                                <li className="nav-link" >
-                                    <Link to='/aboutus' style={{textDecoration:"none"}}>About Us<i className="fas fa-caret-down"></i></Link>
+                                <li className={'nav-link' +
+                                    ` ${pathname === '/' ? 'n-link-primary' : 'n-link-secondary'}`} >
+                                    <Link to='/aboutus' style={{textDecoration:"none"}}><b>About Us</b><i className="fas fa-caret-down"></i></Link>
                                     <div className="dropdown">
                                         <ul style={{listStyleType:"none"}}>
                                             <li className="dropdown-link" >
@@ -40,8 +47,9 @@ const Navbar = () => {
                                     </div>
                                 </li>
 
-                                <li className="nav-link" >
-                                    <Link to='/admissions' style={{textDecoration:"none"}}>Admissions<i className="fas fa-caret-down"></i></Link>
+                                <li className={'nav-link' +
+                                    ` ${pathname === '/' ? 'n-link-primary' : 'n-link-secondary'}`} >
+                                    <Link to='/admissions' style={{textDecoration:"none"}}><b>Admissions</b><i className="fas fa-caret-down"></i></Link>
                                     <div className="dropdown">
                                         <ul style={{listStyleType:"none"}}>
                                             <li className="dropdown-link" >
@@ -52,8 +60,9 @@ const Navbar = () => {
                                     </div>
                                 </li>
 
-                                <li className="nav-link" >
-                                    <Link to='/academics' style={{textDecoration:"none"}}>Academics<i className="fas fa-caret-down"></i></Link>
+                                <li className={'nav-link' +
+                                    ` ${pathname === '/' ? 'n-link-primary' : 'n-link-secondary'}`} >
+                                    <Link to='/academics' style={{textDecoration:"none"}}><b>Academics</b><i className="fas fa-caret-down"></i></Link>
                                     <div className="dropdown">
                                         <ul style={{listStyleType:"none"}}>
                                             <li className="dropdown-link" >
@@ -75,8 +84,9 @@ const Navbar = () => {
                                         </ul>
                                     </div>
                                 </li>
-                                <li className="nav-link" >
-                                    <Link to='/departments' style={{textDecoration:"none"}}>Departments<i className="fas fa-caret-down"></i></Link>
+                                <li className={'nav-link' +
+                                    ` ${pathname === '/' ? 'n-link-primary' : 'n-link-secondary'}`} >
+                                    <Link to='/departments' style={{textDecoration:"none"}}><b>Departments</b><i className="fas fa-caret-down"></i></Link>
                                     <div className="dropdown">
                                         <ul style={{listStyleType:"none"}}>
                                             <li className="dropdown-link" >
@@ -113,8 +123,9 @@ const Navbar = () => {
                                         </ul>
                                     </div>
                                 </li>
-                                <li className="nav-link" >
-                                    <Link to='/students' style={{textDecoration:"none"}}>Students<i className="fas fa-caret-down"></i></Link>
+                                <li className={'nav-link' +
+                                    ` ${pathname === '/' ? 'n-link-primary' : 'n-link-secondary'}`} >
+                                    <Link to='/students' style={{textDecoration:"none"}}><b>Students</b><i className="fas fa-caret-down"></i></Link>
                                     <div className="dropdown">
                                         <ul style={{listStyleType:"none"}}>
                                             <li className="dropdown-link" >
@@ -139,8 +150,49 @@ const Navbar = () => {
                                         </ul>
                                     </div>
                                 </li>
-                                <li className="nav-link" >
-                                    <Link to='/notices' style={{textDecoration:"none"}}>Notices<i className="fas fa-caret-down"></i></Link>
+                                
+                                <li className={'nav-link' +
+                                    ` ${pathname === '/' ? 'n-link-primary' : 'n-link-secondary'}`} >
+                                    <Link to='/cdtp' style={{textDecoration:"none"}}><b>CDTP</b><i className="fas fa-caret-down"></i></Link>
+                                    <div className="dropdown">
+                                        <ul style={{listStyleType:"none"}}>
+                                            <li className="dropdown-link" >
+                                                <Link to="/overview" style={{textDecoration:"none"}}>Overview</Link>
+                                            </li>
+                                            <div className="arrow"></div>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li className={'nav-link' +
+                                    ` ${pathname === '/' ? 'n-link-primary' : 'n-link-secondary'}`} >
+                                    <Link to='/careers' style={{textDecoration:"none"}}><b>Careers</b><i className="fas fa-caret-down"></i></Link>
+                                    <div className="dropdown">
+                                        <ul style={{listStyleType:"none"}}>
+                                            <li className="dropdown-link" >
+                                                <Link to="/applyonline" style={{textDecoration:"none"}}>Apply Online</Link>
+                                            </li>
+                                            <div className="arrow"></div>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li className={'nav-link' +
+                                    ` ${pathname === '/' ? 'n-link-primary' : 'n-link-secondary'}`} >
+                                    <Link to='/associationsandevents' style={{textDecoration:"none"}}><b>Associations/Events</b><i className="fas fa-caret-down"></i></Link>
+                                    <div className="dropdown">
+                                        <ul style={{listStyleType:"none"}}>
+                                            <li className="dropdown-link" >
+                                                <Link to="/associations" style={{textDecoration:"none"}}>Associations</Link>
+                                            </li>
+                                            <li className="dropdown-link">
+                                                <Link to="/events" style={{textDecoration:"none"}}>Events</Link>
+                                            </li>
+                                            <div className="arrow"></div>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li className={'nav-link' +
+                                    ` ${pathname === '/' ? 'n-link-primary' : 'n-link-secondary'}`} >
+                                    <Link to='/notices' style={{textDecoration:"none"}}><b>Notices</b><i className="fas fa-caret-down"></i></Link>
                                     <div className="dropdown">
                                         <ul style={{listStyleType:"none"}}>
                                             <li className="dropdown-link" >
@@ -156,44 +208,9 @@ const Navbar = () => {
                                         </ul>
                                     </div>
                                 </li>
-                                <li className="nav-link" >
-                                    <Link to='/cdtp' style={{textDecoration:"none"}}>CDTP<i className="fas fa-caret-down"></i></Link>
-                                    <div className="dropdown">
-                                        <ul style={{listStyleType:"none"}}>
-                                            <li className="dropdown-link" >
-                                                <Link to="/overview" style={{textDecoration:"none"}}>Overview</Link>
-                                            </li>
-                                            <div className="arrow"></div>
-                                        </ul>
-                                    </div>
-                                </li>
-                                <li className="nav-link" >
-                                    <Link to='/careers' style={{textDecoration:"none"}}>Careers<i className="fas fa-caret-down"></i></Link>
-                                    <div className="dropdown">
-                                        <ul style={{listStyleType:"none"}}>
-                                            <li className="dropdown-link" >
-                                                <Link to="/applyonline" style={{textDecoration:"none"}}>Apply Online</Link>
-                                            </li>
-                                            <div className="arrow"></div>
-                                        </ul>
-                                    </div>
-                                </li>
-                                <li className="nav-link" >
-                                    <Link to='/associationsandevents' style={{textDecoration:"none"}}>Associations/Events<i className="fas fa-caret-down"></i></Link>
-                                    <div className="dropdown">
-                                        <ul style={{listStyleType:"none"}}>
-                                            <li className="dropdown-link" >
-                                                <Link to="/associations" style={{textDecoration:"none"}}>Associations</Link>
-                                            </li>
-                                            <li className="dropdown-link">
-                                                <Link to="/events" style={{textDecoration:"none"}}>Events</Link>
-                                            </li>
-                                            <div className="arrow"></div>
-                                        </ul>
-                                    </div>
-                                </li>
-                                <li className="nav-link" >
-                                    <Link to='/alumini' style={{textDecoration:"none"}}>Alumini<i className="fas fa-caret-down"></i></Link>
+                                <li className={'nav-link' +
+                                    ` ${pathname === '/' ? 'n-link-primary' : 'n-link-secondary'}`} >
+                                    <Link to='/alumini' style={{textDecoration:"none"}}><b>Alumini</b><i className="fas fa-caret-down"></i></Link>
                                     <div className="dropdown">
                                         <ul style={{listStyleType:"none"}}>
                                             <li className="dropdown-link" >
@@ -224,8 +241,9 @@ const Navbar = () => {
                                         </ul>
                                     </div>
                                 </li>
-                                <li className="nav-link" >
-                                    <Link to='/incubationcentre' style={{textDecoration:"none"}}>Incubation Centre<i className="fas fa-caret-down"></i></Link>
+                                <li className={'nav-link' +
+                                    ` ${pathname === '/' ? 'n-link-primary' : 'n-link-secondary'}`} >
+                                    <Link to='/incubationcentre' style={{textDecoration:"none"}}><b>Incubation Centre</b><i className="fas fa-caret-down"></i></Link>
                                     <div className="dropdown LastDrop">
                                         <ul style={{listStyleType:"none"}}>
                                             <li className="dropdown-link" >

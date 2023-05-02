@@ -15,24 +15,24 @@ import Landing_CHE from '../Assets/Landing_CHE.jpg'
 import Landing_PE from '../Assets/Landing_PE.png'
 import Landing_EXTC from '../Assets/Landing_EXTC.png'
 import { Link } from 'react-router-dom';
-
+import './Landing_Departments.css'
 const Landing_Dept = () => { 
   return (
-    <div style={{backgroundColor:'#ECECEC'}}>
+    <div className='DeptBody' style={{backgroundColor:'#F5F6F6'}}>
     <h1 style={{ textAlign:'center', width:'100%',padding:'20px'}}>Our Departments<br/></h1>
-    <div style={{backgroundColor:'#ECECEC', display:'flex'}}>
-      <Carousel>
-        <Carousel.Item>
-      <Card sx={{height:'550px', maxWidth: '28%' ,backgroundColor:'#ECECEC', padding:'10px', float:'left', margin:'10px 25px 10px 70px'}}>
+    <div style={{backgroundColor:'#F5F6F6', display:'flex'}}>
+      <Carousel className="dept-cards" >
+        <Carousel.Item className="dept-cards" interval={3000}>
+      <Card sx={{height:'550px', maxWidth: '28%' ,backgroundColor:'#addbe2', padding:'10px', float:'left', margin:'10px 25px 40px 50px'}}>
       <CardMedia
-        backgroundColor='#ECECEC'
+        backgroundColor='#d9ddde'
         component="img"
         alt="green iguana"
         height="200"
         image={Landing_Comp_Engg}
         
       />
-      <CardContent>
+      <CardContent style={{marginTop:'20px'}}>
         <Typography  >
           <b>Diploma in Computer Engineering</b>
         </Typography>
@@ -41,19 +41,19 @@ const Landing_Dept = () => {
         </Typography>
       </CardContent>
       <CardActions style={{justifyContent:'center'}}>
-        <Button size="small"><Link style={{textDecoration:'none'}} to='/computerengg'>Read More</Link></Button>
+        <Button size="small"><Link style={{textDecoration:'none', color:'white',height:'25px',width:'100px',backgroundColor:'#034954'}} to='/computerengg'>Read More</Link></Button>
       </CardActions>
     </Card>
-    <Card sx={{ height:'550px', maxWidth: '28%' ,backgroundColor:'#ECECEC', padding:'10px', float:'left', margin:'10px 25px 10px 25px'}}>
+    <Card sx={{ height:'550px', maxWidth: '28%' ,backgroundColor:'#addbe2', padding:'10px', float:'left', margin:'10px 25px 40px 25px'}}>
       <CardMedia
-        backgroundColor='#ECECEC'
+        backgroundColor='#d9ddde'
         component="img"
         alt="green iguana"
         height="200"
         image={Landing_IT}
         
       />
-      <CardContent>
+      <CardContent style={{marginTop:'20px'}}>
         <Typography  >
           <b>Diploma in Information Technology</b>
         </Typography>
@@ -62,19 +62,19 @@ const Landing_Dept = () => {
         </Typography>
       </CardContent>
       <CardActions style={{justifyContent:'center'}}>
-        <Button size="small"><Link style={{textDecoration:'none'}} to='/informationtech'>Read More</Link></Button>
+        <Button size="small"><Link style={{textDecoration:'none',color:'white',height:'25px',width:'100px',backgroundColor:'#034954'}} to='/informationtech'>Read More</Link></Button>
       </CardActions>
     </Card>
-    <Card sx={{ height:'550px', maxWidth: '28%' ,backgroundColor:'#ECECEC', padding:'10px', float:'left', margin:'10px 50px 10px 25px'}}>
+    <Card sx={{ height:'550px', maxWidth: '28%' ,backgroundColor:'#addbe2', padding:'10px', float:'left', margin:'10px 50px 40px 25px'}}>
       <CardMedia
-        backgroundColor='#ECECEC'
+        backgroundColor='#d9ddde'
         component="img"
         alt="green iguana"
         height="200"
         image={Landing_CE}
         
       />
-      <CardContent>
+      <CardContent style={{marginTop:'20px'}}>
         <Typography  >
           <b>Diploma in Civil Engineering</b>
         </Typography>
@@ -83,14 +83,14 @@ const Landing_Dept = () => {
         </Typography>
       </CardContent>
       <CardActions style={{justifyContent:'center'}}>
-        <Button size="small"><Link style={{textDecoration:'none'}} to='/civilengg'>Read More</Link></Button>
+        <Button size="small"><Link style={{textDecoration:'none', color:'white',height:'25px',width:'100px',backgroundColor:'#034954'}} to='/civilengg'>Read More</Link></Button>
       </CardActions>
     </Card>
     </Carousel.Item>
-    <Carousel.Item>
-      <Card sx={{ height:'550px', maxWidth: '28%' ,backgroundColor:'#ECECEC', padding:'10px', float:'left', margin:'10px 25px 10px 70px'}}>
+    <Carousel.Item className="dept-cards" interval={3000}>
+      <Card sx={{ height:'550px', maxWidth: '28%' ,backgroundColor:'#addbe2', padding:'10px', float:'left', margin:'10px 25px 40px 50px'}}>
       <CardMedia
-        backgroundColor='#ECECEC'
+        backgroundColor='#d9ddde'
         component="img"
         alt="green iguana"
         height="200"
@@ -106,12 +106,12 @@ const Landing_Dept = () => {
         </Typography>
       </CardContent>
       <CardActions style={{justifyContent:'center'}}>
-        <Button size="small"><Link style={{textDecoration:'none'}} to='/mechanicalengg'>Read More</Link></Button>
+        <Button size="small"><Link style={{textDecoration:'none', color:'white',height:'25px',width:'100px',backgroundColor:'#034954'}} to='/mechanicalengg'>Read More</Link></Button>
       </CardActions>
     </Card>
-    <Card sx={{ height:'550px', maxWidth: '28%' ,backgroundColor:'#ECECEC', padding:'10px', float:'left', margin:'10px 25px 10px 25px'}}>
+    <Card sx={{ height:'550px', maxWidth: '28%' ,backgroundColor:'#addbe2', padding:'10px', float:'left', margin:'10px 25px 40px 25px'}}>
       <CardMedia
-        backgroundColor='#ECECEC'
+        backgroundColor='#d9ddde'
         component="img"
         alt="green iguana"
         height="200"
@@ -127,12 +127,12 @@ const Landing_Dept = () => {
         </Typography>
       </CardContent>
       <CardActions style={{justifyContent:'center'}}>
-        <Button size="small"><Link style={{textDecoration:'none'}} to='/electricalengg'>Read More</Link></Button>
+        <Button size="small"><Link style={{textDecoration:'none', color:'white',height:'25px',width:'100px',backgroundColor:'#034954'}} to='/electricalengg'>Read More</Link></Button>
       </CardActions>
     </Card>
-    <Card sx={{ height:'550px', maxWidth: '28%' ,backgroundColor:'#ECECEC', padding:'10px', float:'left', margin:'10px 50px 10px 25px'}}>
+    <Card sx={{ height:'550px', maxWidth: '28%' ,backgroundColor:'#addbe2', padding:'10px', float:'left', margin:'10px 50px 40px 25px'}}>
       <CardMedia
-        backgroundColor='#ECECEC'
+        backgroundColor='#d9ddde'
         component="img"
         alt="green iguana"
         height="200"
@@ -148,14 +148,14 @@ const Landing_Dept = () => {
         </Typography>
       </CardContent>
       <CardActions style={{justifyContent:'center'}}>
-        <Button size="small"><Link style={{textDecoration:'none'}} to='/plasticengg'>Read More</Link></Button>
+        <Button size="small"><Link style={{textDecoration:'none', color:'white',height:'25px',width:'100px',backgroundColor:'#034954'}} to='/plasticengg'>Read More</Link></Button>
       </CardActions>
     </Card>
     </Carousel.Item>
-    <Carousel.Item >
-      <Card sx={{ height:'550px', maxWidth: '28%' ,backgroundColor:'#ECECEC', padding:'10px', float:'left', margin:'10px 25px 10px 50px'}}>
+    <Carousel.Item className="dept-cards" interval={3000}>
+      <Card sx={{ height:'550px', maxWidth: '28%' ,backgroundColor:'#addbe2', padding:'10px', float:'left', margin:'10px 25px 40px 50px'}}>
       <CardMedia
-        backgroundColor='#ECECEC'
+        backgroundColor='#d9ddde'
         component="img"
         alt="green iguana"
         height="200"
@@ -171,12 +171,12 @@ const Landing_Dept = () => {
         </Typography>
       </CardContent>
       <CardActions style={{justifyContent:'center'}}>
-        <Button size="small"><Link style={{textDecoration:'none'}} to='/chemicalengg'>Read More</Link></Button>
+        <Button size="small"><Link style={{textDecoration:'none', color:'white',height:'25px',width:'100px',backgroundColor:'#034954'}} to='/chemicalengg'>Read More</Link></Button>
       </CardActions>
     </Card>
-    <Card sx={{ height:'550px', maxWidth: '28%' ,backgroundColor:'#ECECEC', padding:'10px', float:'left', margin:'10px 25px 10px 25px'}}>
+    <Card sx={{ height:'550px', maxWidth: '28%' ,backgroundColor:'#addbe2', padding:'10px', float:'left', margin:'10px 25px 40px 25px'}}>
       <CardMedia
-        backgroundColor='#ECECEC'
+        backgroundColor='#d9ddde'
         component="img"
         alt="green iguana"
         height="200"
@@ -188,11 +188,11 @@ const Landing_Dept = () => {
           <b>Diploma in Electronics and Telecommunication</b>
         </Typography>
         <Typography  color="text.secondary">
-        Electronics and Telecommunications Engineering deals with analoganddigital transmission/ reception of video, voice and data. The curriculum focuses on courses likeBasic Electronics,Communication Engineering, Microcontrollers,Satellite Communication, Microwave Engineering, Antenna and Wave propagation,  Mobile Communication and Optical Fibre.
+        Electronics and Telecommunications Engineering deals with analoganddigital transmission/ reception of video, voice and data. The curriculum focuses on courses likeBasic Electronics,Communication Engineering, Microcontrollers,Satellite Communication,  Antenna and Wave propagation,  Mobile Communication and Optical Fibre.
         </Typography>
       </CardContent>
       <CardActions style={{justifyContent:'center'}}>
-        <Button size="small"><Link style={{textDecoration:'none'}} to='/electronicstelecom'>Read More</Link></Button>
+        <Button size="small"><Link style={{textDecoration:'none', color:'white',height:'25px',width:'100px',backgroundColor:'#034954'}} to='/electronicstelecom'>Read More</Link></Button>
       </CardActions>
     </Card>
     </Carousel.Item>

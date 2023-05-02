@@ -9,6 +9,7 @@ export function AcadUnaided() {
 } 
 
 export function AcadAided() {
+
   return(
       <Link to="/diplomaaided">Diploma (Aided)</Link>
   )
@@ -28,7 +29,9 @@ export function Civil() {
 
 export function Mechanical() {
   return(
+    <>
       <Link to='/mechanicalengg'>Mechanical Engineering</Link>
+      </>
   )
 } 
 

@@ -59,9 +59,12 @@ import PlacementCell from './Pages/Students/PlacementCell'
 import Committee from './Pages/Students/Committee'
 import Association from './Pages/Students/Association'
 import Voiceassistant from './Components/voiceassistant';
-
+import Carousel  from './Components/Carousel';
 
 function App() {
+  const PageHeader = Header()
+  const PageCarousel = Carousel()
+
   return (
     <div className="App">
       <div className='App-header'>
