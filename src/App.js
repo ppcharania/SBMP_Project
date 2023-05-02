@@ -58,6 +58,7 @@ import Feedback from './Pages/Students/Feedback'
 import PlacementCell from './Pages/Students/PlacementCell'
 import Committee from './Pages/Students/Committee'
 import Association from './Pages/Students/Association'
+import Voiceassistant from './Components/voiceassistant';
 
 
 function App() {
@@ -66,9 +67,10 @@ function App() {
       <div className='App-header'>
         <Header/>
       </div>
-      <Navbar/> 
-      <div className='chatbot'>  
+      <div className = 'Voiceassistant'>
+      <Voiceassistant/>
       </div>
+      <Navbar/> 
       <div className='Pages'>
       <Routes>
         <Route path="/" element={<Landing/>}/>
@@ -158,7 +160,6 @@ function App() {
         right: '25px',
         bottom: '50px',
         zIndex: '1',
-       
       }}
       >
         <Chatbot/>

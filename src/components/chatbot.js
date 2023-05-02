@@ -25,7 +25,8 @@ const ChatbotSBMP = () => {
            <Button 
           size = "large"  
           variant = "contained" 
-          sx={showComponent && {marginLeft:'210px',marginTop:'0.25px'}}
+          sx={showComponent && {marginLeft:'210px',marginTop:'2.5px'}}
+          style = {{backgroundColor:'#034954'}}
           onClick={handleClick} 
           startIcon={<ChatIcon />}>
           Chat

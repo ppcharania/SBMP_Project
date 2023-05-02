@@ -32,6 +32,7 @@
 .react-chatbot-kit-chat-container {
   position: relative;
   width: 320px;
+  box-shadow: 1.5px 2px 8px;
 }
 
 .react-chatbot-kit-chat-header {
