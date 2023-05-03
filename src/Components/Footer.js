@@ -3,7 +3,7 @@ import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-k
 import FacebookIcon from '@mui/icons-material/FacebookRounded';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import TwitterIcon from '@mui/icons-material/Twitter';
-import GitHubIcon from '@mui/icons-material/GitHub';
+import YouTubeIcon from '@mui/icons-material/YouTube';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GoogleIcon from '@mui/icons-material/Google';
 import PhoneIcon from '@mui/icons-material/Phone';
@@ -18,23 +18,23 @@ const Footer = () => {
         </div>
 
         <div>
-          <a href='' className='me-4 text-reset'>
+          <a target='_blank' href='' className='me-4 text-reset'>
             <FacebookIcon fontSize='medium' />
           </a>
-          <a href='' className='me-4 text-reset'>
+          <a target='_blank' href='https://www.instagram.com/sbmpoffical/' className='me-4 text-reset'>
             <InstagramIcon fontSize='medium' />
           </a>
-          <a href='' className='me-4 text-reset'>
+          <a target='_blank' href='' className='me-4 text-reset'>
             <TwitterIcon fontSize='medium' />
           </a>
-          <a href='' className='me-4 text-reset'>
+          <a target='_blank' href='' className='me-4 text-reset'>
             <LinkedInIcon fontSize='medium' />
           </a>
-          <a href='' className='me-4 text-reset'>
+          <a target='_blank' href='' className='me-4 text-reset'>
             <GoogleIcon fontSize='medium' />
           </a>
-          <a href='' className='me-4 text-reset'>
-            <GitHubIcon fontSize='medium' />
+          <a target='_blank' href='https://www.youtube.com/@SBMPolytechnic' className='me-4 text-reset'>
+            <YouTubeIcon fontSize='medium' />
           </a>
         </div>
       </section>
@@ -53,7 +53,7 @@ const Footer = () => {
                 <PhoneIcon/>022-42336022 (Direct)
               </p>
               <p>
-                  <EmailIcon/>
+                  <EmailIcon/>SBMPoly63@gmail.com
               </p>
             </MDBCol>
 

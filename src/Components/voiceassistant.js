@@ -19,12 +19,12 @@ const Voiceassistant = () => {
 
   const {transcript, listening, resetTranscript, browserSupportsSpeechRecognition} = useSpeechRecognition({commands});
   const [redirectUrl, setRedirectUrl] = useState("")
-  const pages = ["home", "about us", "admissions", "Academics", "departments", "events", "associations", "notices"]
+  const pages = ["home", "about us", "admissions", "Academics.", "departments", "events", "associations", "notices"]
   const urls = {
     home: "/",
     "about us": "/aboutus",
     admissions: "/admissions",
-    Academics: "/academics",
+    "Academics.": "/academics",
     departments: "/departments",
     events: "/events",
     associations: "/associations"
@@ -59,7 +59,7 @@ const Voiceassistant = () => {
           <Button size = "large" variant = "outlined"  onClick={SpeechRecognition.startListening} sx = {{marginRight:'5px'}}>Start</Button>
           <Button size = "large" variant = "outlined"  onClick={SpeechRecognition.stopListening} sx = {{marginRight:'5px'}}>Stop</Button>
           <Button size = "large" variant = "outlined"  onClick={resetTranscript}>Reset</Button>
-          <p>{transcript.toLowerCase()}</p>
+          <p>{transcript.slice(0,transcript.length -  1).toLowerCase()}</p>
           {redirect}
           </div>}
           
