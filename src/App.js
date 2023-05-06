@@ -77,7 +77,13 @@ function App() {
       }
       {PageCarousel}
       <Navbar/> 
-      <div className='Voice'>
+      <div className='Voice' style={{
+        position: 'fixed',
+        right: '25px',
+        bottom: '100px',
+        zIndex: '10',
+       
+      }}>
         <Voiceassistant/>  
       </div>
       <div className='Pages'>
@@ -168,7 +174,7 @@ function App() {
         position: 'fixed',
         right: '25px',
         bottom: '50px',
-        zIndex: '1',
+        zIndex: '3',
        
       }}
       >

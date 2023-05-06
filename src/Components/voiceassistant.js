@@ -19,12 +19,12 @@ const Voiceassistant = () => {
 
   const {transcript, listening, resetTranscript, browserSupportsSpeechRecognition} = useSpeechRecognition({commands});
   const [redirectUrl, setRedirectUrl] = useState("")
-  const pages = ["home", "about us", "admissions", "Academics.", "departments", "events", "associations", "notices"]
+  const pages = ["home", "about us", "admissions", "acadamics", "departments", "events", "associations", "notices"]
   const urls = {
     home: "/",
     "about us": "/aboutus",
     admissions: "/admissions",
-    "Academics.": "/academics",
+    acadamics: "/academics",
     departments: "/departments",
     events: "/events",
     associations: "/associations"
@@ -47,21 +47,22 @@ const Voiceassistant = () => {
     
   return (
     <>
-     <Button 
+      
+      <Button 
           size = "large"
-          variant = "outlined"
-          sx = {{color: "#263238", borderColor: "#263238"}}  
+          variant = "contained"
+          sx = {{color: "white", borderColor: "#263238", backgroundColor: "#034954"}}  
           onClick={handleClick} 
           startIcon={<KeyboardVoiceIcon />}>
-          </Button>
-          {showComponent && <div>
-          <p>Microphone: {listening ? 'on' : 'off'}</p>
-          <Button size = "large" variant = "outlined"  onClick={SpeechRecognition.startListening} sx = {{marginRight:'5px'}}>Start</Button>
-          <Button size = "large" variant = "outlined"  onClick={SpeechRecognition.stopListening} sx = {{marginRight:'5px'}}>Stop</Button>
-          <Button size = "large" variant = "outlined"  onClick={resetTranscript}>Reset</Button>
-          <p>{transcript.slice(0,transcript.length -  1).toLowerCase()}</p>
-          {redirect}
-          </div>}
+      </Button>
+      {showComponent && <div>
+        <p>Microphone: {listening ? 'on' : 'off'}</p>
+        <Button size = "large" variant = "outlined"  onClick={SpeechRecognition.startListening} sx = {{marginRight:'5px'}}>Start</Button>
+        <Button size = "large" variant = "outlined"  onClick={resetTranscript}>Reset</Button>
+        <p>{transcript}</p>
+        {redirect}
+      </div>}
+        
           
     </>
   );
