@@ -66,12 +66,11 @@ const FAQS = (props) => {
           aria-controls="panel4a-content"
           id="panel4a-header"
         >
-          <Typography style={{fontSize: '1rem'}}>Accordion 4</Typography>
+          <Typography style={{fontSize: '1rem'}}>What are the College Timings?</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
+            College timings are usually 7:00am to 4:00pm
           </Typography>
         </AccordionDetails>
       </Accordion>

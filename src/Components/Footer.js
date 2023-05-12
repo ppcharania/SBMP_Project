@@ -1,5 +1,5 @@
 import React from 'react';
-import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-kit';
+import { MDBFooter, MDBContainer, MDBRow, MDBCol } from 'mdb-react-ui-kit';
 import FacebookIcon from '@mui/icons-material/FacebookRounded';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import TwitterIcon from '@mui/icons-material/Twitter';
@@ -8,8 +8,28 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GoogleIcon from '@mui/icons-material/Google';
 import PhoneIcon from '@mui/icons-material/Phone';
 import EmailIcon from '@mui/icons-material/Email';
-import Button from '@mui/material/Button'
+import Button from '@mui/material/Button';
 const Footer = () => {
+  function Submit(e) {
+    const formEle = document.querySelector("form");
+    e.preventDefault()
+    const formDatab = new FormData(formEle);
+    fetch(
+      "https://script.google.com/macros/s/AKfycbwhGZTIxHHxkOinxR7G7jSQHqUWyPl-Oy5t8bRHvO_F_jII0wTwSdKfZxHcvwQtJgyC/exec",
+      {
+        method:"POST",
+        body: formDatab
+      }
+    )
+      .then((res) => res.json())
+      .then((data) => {
+        console.log(data);
+      })
+      .catch((error) => {
+        console.log(error);
+      });
+      
+  }
   return (
     <MDBFooter bgColor='light' className='text-center text-lg-start text-muted'>
       <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
@@ -61,14 +81,15 @@ const Footer = () => {
             <h6 style={{marginLeft:'100px'}} className='text-uppercase fw-bold mb-4'>
               Contact Us
               </h6>
-              <form action="/action_page.php">
+              <form className='form' >
                 <label for="name">Name:</label>
-                <input type="text" id="fname" style={{float:'right'}}/><br/><br/>
+                <input type="text" id="fname" name='Name' style={{float:'right'}}/><br/><br/>
                 <label for="phone">Phone Number:</label>
-                <input type="phone" id="phn" style={{float:'right'}}/><br/><br/>
+                <input type="phone" id="phn" name='PhoneNumber' style={{float:'right'}}/><br/><br/>
                 <label for="feedback">Feedback/Query:</label>
-                <textarea rows="4" cols="20" name="comment" style={{float:'right'}}></textarea><br/><br/><br/><br/><br/><br/>
-                <center><Button variant="contained" style={{backgroundColor:'#034954'}}>Submit</Button></center>
+                <textarea rows="4" cols="20" name="Comment" style={{float:'right'}}></textarea><br/><br/><br/><br/><br/><br/>
+                <center><Button variant="contained" onClick={(e) => Submit(e)} style={{backgroundColor:'#034954'}}>Submit</Button></center>
+                {/* <center><input name="Name" type="submit" style={{backgroundColor:'#034954', color:'white', padding:'5px 10px'}}/></center> */}
               </form>
             </MDBCol>
             
