@@ -6,7 +6,7 @@
     }
 
     GreetHandler = () => {
-      const message = this.createChatBotMessage("Welcome!")
+      const message = this.createChatBotMessage("HI!")
       this.setChatbotMessage(message)
     }
 
@@ -203,6 +203,28 @@
       })
       this.setChatbotMessage(message)
       this.setChatbotMessage(message2)
+    }
+
+    Misp = () => {
+      const message = this.createChatBotMessage("For Maharashtra State Innovation Startup Policy Click on the link below.",{
+        widget: "MISP"
+      })
+      const message1 = this.createChatBotMessage("For Information related to the Incubation Center Click on the link given below.",{
+        widget: "Incubation"
+      })
+      this.setChatbotMessage(message)
+      this.setChatbotMessage(message1)
+    }
+
+    Nisp = () => {
+      const message = this.createChatBotMessage("For National Innovation Startup Policy Click on the link below.",{
+        widget: "NISP"
+      })
+      const message1 = this.createChatBotMessage("For Information related to the Incubation Center Click on the link given below.",{
+        widget: "Incubation"
+      })
+      this.setChatbotMessage(message)
+      this.setChatbotMessage(message1)
     }
 
     elseHandler = () => {

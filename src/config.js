@@ -23,7 +23,9 @@ import { Admission } from './buttoncomp/links';
 import { AcadUnaided } from './buttoncomp/links';
 import { AcadAided } from './buttoncomp/links';
 import { Fees } from './buttoncomp/links';
-
+import { MISP } from './buttoncomp/links';
+import { Incubation } from './buttoncomp/links';
+import { NISP } from './buttoncomp/links';
 
 const config = {
   initialMessages: [
@@ -126,6 +128,18 @@ const config = {
       widgetName: "FAQ",
       widgetFunc: (props) => <FAQS {...props}/>
     },
+    {
+      widgetName: "MISP",
+      widgetFunc: (props) => <MISP {...props}/>
+    },
+    {
+      widgetName: "Incubation",
+      widgetFunc: (props) => <Incubation {...props}/>
+    },
+    {
+      widgetName: "NISP",
+      widgetFunc: (props) => <NISP {...props}/>
+    }
   ],
 };
 

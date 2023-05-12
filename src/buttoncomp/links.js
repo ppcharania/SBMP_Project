@@ -95,4 +95,21 @@ export function Admission() {
   )
 } 
 
+export function MISP() {
+  return(
+      <a href = "http://localhost:3000/static/media/MSISP.6ddb6b01a0553d3492e4.pdf">Click Here</a>
+  )
+} 
+
+export function Incubation() {
+  return(
+    <Link to = '/incubationcentre'>Click Here</Link>
+  )
+}
+
+export function NISP() {
+  return(
+    <a href = "http://localhost:3000/static/media/NISP.fc2211dc2658aa8f551d.pdf">Click Here</a>
+  )
+}
 

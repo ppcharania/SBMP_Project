@@ -75,6 +75,12 @@ class MessageParser {
     {
       this.actionProvider.FeesStruc()
     }
+    else if (lowercase.includes("misp")){
+      this.actionProvider.Misp()
+    }
+    else if (lowercase.includes("nisp")){
+      this.actionProvider.Nisp()
+    }
     else
     {
       this.actionProvider.elseHandler()

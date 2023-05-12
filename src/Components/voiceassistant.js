@@ -19,15 +19,28 @@ const Voiceassistant = () => {
 
   const {transcript, listening, resetTranscript, browserSupportsSpeechRecognition} = useSpeechRecognition({commands});
   const [redirectUrl, setRedirectUrl] = useState("")
-  const pages = ["home", "about us", "admissions", "acadamics", "departments", "events", "associations", "notices"]
+  const pages = ["home", "Home.","about us", "About us.","admissions", "Admissions.","acadamics", "Academics.","departments", "Departments.", "students","Students.","careers","Careers.","notices","Notices.","events", "associations", "incubation", "Incubation."]
   const urls = {
     home: "/",
+    "Home.": "/",
     "about us": "/aboutus",
+    "About us.": "/aboutus",
     admissions: "/admissions",
+    "Admissions.": "/admissions",
     acadamics: "/academics",
+    "Academics.": "/academics",
     departments: "/departments",
+    "Departments.": "/departments",
     events: "/events",
-    associations: "/associations"
+    associations: "/associations",
+    students: "/students",
+    "Students.": "/students",
+    careers: "/careers",
+    "Careers.": "/careers",
+    notices: "/notices",
+    "Notices.": "/notices",
+    incubation: "/incubationcentre",
+    "Incubation.": "/incubationcentre"
   }
 
   if (!browserSupportsSpeechRecognition) {

@@ -174,7 +174,7 @@ function App() {
         position: 'fixed',
         right: '25px',
         bottom: '50px',
-        zIndex: '3',
+        zIndex: '10',
        
       }}
       >
