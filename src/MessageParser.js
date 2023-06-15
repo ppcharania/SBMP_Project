@@ -81,6 +81,9 @@ class MessageParser {
     else if (lowercase.includes("nisp")){
       this.actionProvider.Nisp()
     }
+    else if (lowercase.includes("curriculum computer")){
+      this.actionProvider.CseCurr()
+    }
     else
     {
       this.actionProvider.elseHandler()

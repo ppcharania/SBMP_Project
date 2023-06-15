@@ -26,6 +26,7 @@ import { Fees } from './buttoncomp/links';
 import { MISP } from './buttoncomp/links';
 import { Incubation } from './buttoncomp/links';
 import { NISP } from './buttoncomp/links';
+import { CSECurr } from './buttoncomp/links';
 
 const config = {
   initialMessages: [
@@ -139,6 +140,10 @@ const config = {
     {
       widgetName: "NISP",
       widgetFunc: (props) => <NISP {...props}/>
+    },
+    {
+      widgetName: "csecurr",
+      widgetFunc: (props) => <CSECurr {...props}/>
     }
   ],
 };

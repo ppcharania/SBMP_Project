@@ -6,6 +6,7 @@ import TabContext from '@mui/lab/TabContext';
 import TabList from '@mui/lab/TabList';
 import TabPanel from '@mui/lab/TabPanel';
 import CSE_TechBeats from '../../Assets/NewsLetter/Techbeats 2021.pdf'
+import one from '../../Assets/Dept/one.pdf'
 
 const ComputerEngineering = () => {
   const [value, setValue] = React.useState('1');
@@ -123,7 +124,18 @@ const ComputerEngineering = () => {
             </table>
             
             </TabPanel>
-            <TabPanel value="4">Item Three</TabPanel>
+            <TabPanel value="4">
+              <ul type = 'none'>
+                <li>
+                  Curriculum For Batch 2019-20
+                </li>
+                <a href = {one}>Click Here</a>
+                <li>
+                  Curriculum For Batch 2022-2023
+                </li>
+                <a href = {one}>Click Here</a>
+              </ul>
+            </TabPanel>
             
             <TabPanel value="5">
               <h5>TechBeats 2021</h5>

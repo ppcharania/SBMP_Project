@@ -7,6 +7,7 @@ import TabList from '@mui/lab/TabList';
 import TabPanel from '@mui/lab/TabPanel';
 import Symbiantales2021  from '../../Assets/NewsLetter/Symbiantales2021.pdf'
 import Symbiantales2022  from '../../Assets/NewsLetter/Symbiantales2022.pdf'
+import IT from '../../Assets/Dept/IT.pdf'
 
 const InformationTechnology = () => {
   const [value, setValue] = React.useState('1');
@@ -128,7 +129,18 @@ const InformationTechnology = () => {
               </table>
             </TabPanel>
 
-            <TabPanel value="4">Item Three</TabPanel>
+            <TabPanel value="4">
+            <ul type = 'none'>
+                <li>
+                  Curriculum For Batch 2019-20
+                </li>
+                <a href = {IT}>Click Here</a>
+                <li>
+                  Curriculum For Batch 2022-2023
+                </li>
+                <a href = {IT}>Click Here</a>
+              </ul>
+            </TabPanel>
             <TabPanel value="5">
             <h5>Symbian-Tales 2021</h5>
               <a href={Symbiantales2021}>Click Here</a>

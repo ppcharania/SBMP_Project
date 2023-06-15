@@ -227,6 +227,17 @@
       this.setChatbotMessage(message1)
     }
 
+    CseCurr = () => {
+      const message = this.createChatBotMessage("For Curriculum for Computer Department click on the link given below",{
+        widget: "csecurr"
+      })
+      const message1 = this.createChatBotMessage("For more information on Computer Department click on the link given below",{
+        widget: "CSEredirect"
+      })
+      this.setChatbotMessage(message)
+      this.setChatbotMessage(message1)
+    }
+
     elseHandler = () => {
       const message = this.createChatBotMessage("Sorry We did not get your message",{
         widget: "options"

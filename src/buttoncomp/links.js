@@ -113,3 +113,9 @@ export function NISP() {
   )
 }
 
+export function CSECurr() {
+  return(
+    <a href = "http://localhost:3000/static/media/one.9ed1a4cc874e9f6a77de.pdf">Click Here</a>
+  )
+}
+

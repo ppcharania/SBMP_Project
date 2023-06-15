@@ -8,7 +8,6 @@ import MessageParser from '../MessageParser.js';
 import ActionProvider from '../ActionProvider.js';
 import './chatbot.css';
 
-
 const ChatbotSBMP = () => {
   const [showComponent, setShowComponent] = useState(false);
   const handleClick = () => {
