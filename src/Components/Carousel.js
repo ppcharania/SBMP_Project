@@ -35,7 +35,7 @@ export default function PageCarousel(){
             />
 
             <Carousel.Caption>
-            <div style={{paddingBottom:"150px"}}><h4 style={{fontSize:'25px'}}>Shri Vile Parle Kelvani Mandal's</h4>
+            <div style={{paddingBottom:"150px"}}><h4 style={{fontSize:'25px'}}>Shri Vile Parle Kelavani Mandal's</h4>
             <b><h1 style={{fontFamily: 'Segoe UI',fontSize: '50px'}}>Shri Bhagubhai Mafatlal Polytechnic</h1></b></div>
             </Carousel.Caption>
         </Carousel.Item>
@@ -47,7 +47,7 @@ export default function PageCarousel(){
             />
 
             <Carousel.Caption>
-            <div style={{paddingBottom:"150px"}}><h4 style={{fontSize:'25px'}}>Shri Vile Parle Kelvani Mandal's</h4>
+            <div style={{paddingBottom:"150px"}}><h4 style={{fontSize:'25px'}}>Shri Vile Parle Kelavani Mandal's</h4>
             <b><h1 style={{fontFamily: 'Segoe UI',fontSize: '50px'}}>Shri Bhagubhai Mafatlal Polytechnic</h1></b></div>
             </Carousel.Caption>
         </Carousel.Item>
