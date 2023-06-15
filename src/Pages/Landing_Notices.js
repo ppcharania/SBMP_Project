@@ -1,12 +1,10 @@
 import React from 'react'
-import BG from '../Assets/BG_Landing_Notice.png'
 import Box from '@mui/material/Box'
 import Carousel from 'react-bootstrap/Carousel';
 import './Landing_Notices.css'
 import SVKMMM from '../Assets/SVKM_MasterMind.pdf'
 import NBA1 from '../Assets/NBA1.pdf'
 import NBA2 from '../Assets/NBA2.pdf'
-import NBA3 from '../Assets/NBA3.pdf'
 import NBA4 from '../Assets/NBA4.pdf'
 import Att1 from '../Assets/Att1.pdf'
 import Att2 from '../Assets/Att2.pdf'
@@ -17,10 +15,10 @@ import SS4 from '../Assets/SS4.pdf'
 import AC from '../Assets/AC.pdf'
 import TT from '../Assets/TT.pdf'
 import S1 from '../Assets/S1.png'
-import S2 from '../Assets/S2.png'
+import S2 from '../Assets/S2.jpg'
 import S3 from '../Assets/S3.png'
 import S4 from '../Assets/S4.png'
-import Notice2 from '../Assets/Notice2.pdf'
+import ETT from '../Assets/ExamTT.pdf'
 
 const Landing_Notices = () => {
   return (
@@ -57,8 +55,8 @@ const Landing_Notices = () => {
                     <p style={{textAlign:'left',marginLeft:'10px'}}><a style={{textDecoration:'none', color:'white'}} target='_blank' href={SS4}>-Student Summary 2019-20</a></p>
                 </div>
                 <div className='not5' style={{width:'33%', height:'250px', borderRadius:'1rem', float:'left', backgroundColor:'#34788d', margin:'10px 10px 10px 10px'}}>
-                <h4 style={{width:'100%', backgroundColor:'#addbe2', height:'60px'}}>Attendance</h4>
-                <p style={{textAlign:'left',marginLeft:'10px'}}><a style={{textDecoration:'none', color:'white' }} target='_blank' href={Notice2}>-Notice for Students 2022 - 2023(Term Jan 2023 - May 2023)</a></p>
+                <h4 style={{width:'100%', backgroundColor:'#addbe2', height:'60px'}}>Examination Time Table</h4>
+                <p style={{textAlign:'left',marginLeft:'10px'}}><a style={{textDecoration:'none', color:'white' }} target='_blank' href={ETT}>-Time Table MAY/JUNE-2023 SUMMER-2023</a></p>
                 </div>
                 <div className='not6' style={{width:'33%', height:'250px', borderRadius:'1rem', float:'left', backgroundColor:'#34788d', margin:'10px 20px 10px 10px'}}>
                 <h4 style={{width:'100%', backgroundColor:'#addbe2', height:'60px'}}>Academic Calendar</h4>

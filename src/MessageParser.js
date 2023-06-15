@@ -75,14 +75,17 @@ class MessageParser {
     {
       this.actionProvider.FeesStruc()
     }
-    else if (lowercase.includes("misp")){
+    else if (lowercase.includes("msisp")){
       this.actionProvider.Misp()
     }
     else if (lowercase.includes("nisp")){
       this.actionProvider.Nisp()
     }
-    else if (lowercase.includes("curriculum computer")){
-      this.actionProvider.CseCurr()
+    else if (lowercase.includes("maharashtra state innovation and startup policy")){
+      this.actionProvider.Misp()
+    }
+    else if (lowercase.includes("national innovation and startup policy")){
+      this.actionProvider.Nisp()
     }
     else
     {

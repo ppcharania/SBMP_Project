@@ -64,7 +64,7 @@ const Voiceassistant = () => {
       <Button 
           size = "large"
           variant = "contained"
-          sx = {{color: "white", borderColor: "#263238", backgroundColor: "#034954"}}  
+          sx = {{color: "white", borderColor: "#263238", backgroundColor: "#034954", paddingRight:'11px'}}  
           onClick={handleClick} 
           startIcon={<KeyboardVoiceIcon />}>
       </Button>
